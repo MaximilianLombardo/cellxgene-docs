@@ -47,3 +47,5 @@ If you want to add additional browsers, this is done by just adding additional l
 The additional location stanzas just need to be adapted accordingly \(proxy\_pass and sub\_filter lines\).  
 
 
+Get some more context for this one, flesh out the use a little bit more
+
