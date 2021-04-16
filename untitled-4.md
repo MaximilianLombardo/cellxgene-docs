@@ -1,13 +1,5 @@
 # Gallery
 
-[Permalink](https://github.com/chanzuckerberg/cellxgene/blob/c23b25d4e86ed9062a48155390b64f79dc139bb9/docs/posts/gallery.md)
-
-Cannot retrieve contributors at this time
-
-| title | subtitle | layout |
-| :--- | :--- | :--- |
-| Gallery | Features & examples | default |
-
 ## Features
 
 ### Cross-filter cells and color by metadata
