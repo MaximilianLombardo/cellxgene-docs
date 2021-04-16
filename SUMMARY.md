@@ -1,0 +1,21 @@
+# Table of contents
+
+* [Cellxgene](README.md)
+* [Quick Start](untitled.md)
+* [Install](install-subpage/README.md)
+  * [Install Original](install-subpage/install.md)
+* [Gallery](gallery.md)
+* [Cellxgene Data Portal](cellxgene-data-portal.md)
+* [Demo datasets](demo-datasets.md)
+* [Prepare](prepare.md)
+* [Launch](launch.md)
+* [Hosting](hosting.md)
+* [Annotating Data](annotating-data.md)
+* [Methods](methods.md)
+* [Troubleshooting](troubleshooting.md)
+* [Roadmap](roadmap.md)
+* [Contributing](contributing.md)
+* [Extensions](extensions.md)
+* [Team](contact.md)
+* [Code](code.md)
+
