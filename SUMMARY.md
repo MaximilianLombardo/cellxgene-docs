@@ -8,7 +8,11 @@
 * [Demo data](untitled-2.md)
 * [Prepare](prepare.md)
 * [Launch](untitled-6.md)
-* [Hosting Cellxgene](hosting-cellxgene/README.md)
+* [Hosted Cellxgene](hosting-cellxgene/README.md)
+  * [Heroku](hosting-cellxgene/heroku.md)
+  * [Cellxgene Gateway Proxy Example](hosting-cellxgene/cellxgene-gateway-proxy-example.md)
+  * [Elastic Bean Stalk](hosting-cellxgene/elastic-bean-stalk.md)
+  * [NginX](hosting-cellxgene/nginx.md)
   * [Hosted Original Page](hosting-cellxgene/hosted-original-page.md)
 * [Annotations](annotations.md)
 * [Anndata requirements](untitled-7.md)
@@ -17,4 +21,5 @@
 * [Extensions](untitled-3.md)
 * [Contact](untitled-1.md)
 * [Code](code.md)
+* [Hosting](untitled-9.md)
 
