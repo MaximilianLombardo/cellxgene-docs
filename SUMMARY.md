@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Cellxgene Overview](README.md)
-* [Install](untitled-5.md)
 * [Quick Start](untitled.md)
+* [Install](untitled-5.md)
 * [Gallery](untitled-4.md)
 * [Contribute](contribute.md)
 * [Demo data](untitled-2.md)
@@ -21,5 +21,4 @@
 * [Extensions](untitled-3.md)
 * [Contact](untitled-1.md)
 * [Code](code.md)
-* [Hosting](untitled-9.md)
 

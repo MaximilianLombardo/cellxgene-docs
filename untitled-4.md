@@ -4,13 +4,23 @@
 
 ### Cross-filter cells and color by metadata
 
+![](.gitbook/assets/crossfilter.gif)
+
 ### Compare groups of cells with differential expression
+
+![](.gitbook/assets/diffexp.gif)
 
 ### See how metadata and gene expression break down across categories
 
+![](.gitbook/assets/category-breakdown.gif)
+
 ### Find cells where a gene is expressed
 
+![](.gitbook/assets/gene-expression.gif)
+
 ### Compare expression of multiple genes
+
+![](.gitbook/assets/compare-genes.gif)
 
 ## Interactive demos
 

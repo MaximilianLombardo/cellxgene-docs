@@ -1,9 +1,5 @@
 # Launch
 
-| layout | title | description |
-| :--- | :--- | :--- |
-| default | demo-data | Demo datasets |
-
 ## Launching cellxgene with your dataset
 
 ### Quickstart
