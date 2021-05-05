@@ -1,4 +1,4 @@
-# Cellxgene Overview
+# Overview
 
 An overview of the Cellxgene "suite" - desktop vs dataportal and hosted cellxgene
 
@@ -11,7 +11,6 @@ Table of features
 This is a quick update to test syncing
 
 This is a quick update to test syncing from github
-
 
 demo for ambrose
 

@@ -1,2 +1,2 @@
-# Desktop Introduction
+# Introduction
 

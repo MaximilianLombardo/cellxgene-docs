@@ -1,4 +1,4 @@
-# Self-Hosting Cellxgene
+# Self-Hosting
 
 ## Hosting cellxgene on the web
 

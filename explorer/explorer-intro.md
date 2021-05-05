@@ -1,2 +1,2 @@
-# Explorer Introduction
+# Introduction
 

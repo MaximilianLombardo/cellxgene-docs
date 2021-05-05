@@ -1,4 +1,4 @@
-# Features \(originally gallery\)
+# Features
 
 ## Features
 

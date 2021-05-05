@@ -1,4 +1,4 @@
-# Anndata requirements
+# Data Format Requirements
 
 ## Data structure: _anndata_ fields used for visualization
 
