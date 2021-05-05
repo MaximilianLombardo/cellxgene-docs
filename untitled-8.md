@@ -1,4 +1,4 @@
-# Troubleshooting
+# FAQ
 
 ## Troubleshooting tips & tricks
 

@@ -1,4 +1,4 @@
-# Extensions
+# Cellxgene Extensions
 
 This project was started with the sole goal of empowering the scientific community to explore and understand their data. As such, we encourage other scientific tool builders in academia or industry to adopt the patterns, tools, and code from this project. All code is freely available for reuse under the [MIT license](https://opensource.org/licenses/MIT).
 

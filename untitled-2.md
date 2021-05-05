@@ -1,4 +1,4 @@
-# Demo data
+# Demo data \(To Be Removed/put examples in self-hosting\)
 
 ## Example datasets
 
