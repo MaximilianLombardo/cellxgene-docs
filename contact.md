@@ -1,6 +1,4 @@
-# Team
-
-[Permalink](https://github.com/chanzuckerberg/cellxgene/blob/4510c8c8a478a4f9bc91b179a0d51d5974c67f64/docs/posts/contact.md)
+# Contact
 
 ## Get in touch
 
