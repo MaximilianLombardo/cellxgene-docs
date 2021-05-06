@@ -1,6 +1,6 @@
 # Introduction
 
-Explain that portal is comosed of:
+Explain that portal is composed of:
 
 collections
 
