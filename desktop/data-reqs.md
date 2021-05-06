@@ -14,11 +14,48 @@ Categorical \(e.g., cluster labels\) and continuous \(e.g., pseudotime\) metadat
 
 cellxgene looks for embeddings \(e.g., tSNE, UMAP, PCA, spatial coordinates\) in `anndata.obsm`. These fields must follow the scanpy convention of starting with `X_`, e.g., `anndata.obsm['X_umap']`. If an embedding has more than two components, the first two will be used for visualization.
 
-## Differential expression
+## Data format requirements
 
-We're actively working on how to improve differential expression within the app. **N.B.: the** [**current implementation**](https://github.com/chanzuckerberg/cellxgene/blob/main/server/app/scanpy_engine/diffexp.py#L40) **assumes normally distributed values on a linear scale.**
+If your data is in `h5ad` file \(from the [`anndata`](https://anndata.readthedocs.io/en/latest/index.html) library\) and meets the following requirements, you can go straight to `cellxgene launch`:
 
-Currently, we use a [Welch's _t_-test](https://en.wikipedia.org/wiki/Welch%27s_t-test), which assumes that the two populations are each normally distributed, but may have unequal variance. We use a two-sided t-test against the null hypothesis that the two populations have **equal** means. P-values are adjusted with the [Bonferroni corrrection](https://en.wikipedia.org/wiki/Bonferroni_correction).
+* Expression values \(raw or normalized\) in `anndata.X`
+* At least one embedding \(e.g., tSNE, UMAP\) in `anndata.obsm`, specified with the prefix `X_` \(e.g., by default scanpy stores UMAP coordinates in `anndata.obsm['X_umap']`\)
+* A unique identifier is required for each cell, which by default will be pulled from the `obs` DataFrame index. If the index is not unique or does not contain the cell ID, an alternative column can be specified with `--obs-names`
+* A unique identifier is required for each gene, which by default will be pulled from the `var` DataFrame index. If the index is not unique or does not contain the gene ID, an alternative column can be specified with `--var-names`
 
-To help avoid spurious results, we use the log fold change to filter genes, retaining those where `|log2( mean(set1) / mean(set2) )| > 0.01`; this threshold can be configured with the [`--diffexp-lfc-cutoff`](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/launch) command. We then sort genes by their associated `|t value|` and return the top 15 genes.
+#### What about R objects from seurat / bioconductor!?
+
+We hear you! We'd also love to be able to ingest these files directly. This isn't currently possible, but in the meantime, you can use [sceasy](https://bioconda.github.io/recipes/r-sceasy/README.html) \([docs](https://cellgeni.readthedocs.io/en/latest/visualisations.html)\) to convert to `h5ad`. Seurat also has some [handy conversion tools](https://satijalab.org/seurat/v3.0/conversion_vignette.html) that you can try out.
+
+#### Can I use data hosted on the web somewhere?
+
+Yes! You can launch from a URL instead of a filepath. The same data format requirements apply. Please see [here](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/launch) for more details.
+
+## Data format options
+
+#### Category colors
+
+`cellxgene` will display [scanpy-style color information](https://github.com/chanzuckerberg/cellxgene/issues/1152#issue-564361541) for category-label pairs. An example of this format is shown below:
+
+```text
+>>> category = "louvain"
+>>> # colors stored in adata.uns must be matplotlib-compatible color information
+>>> adata.uns[f"{category}_colors"]
+array(['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#bcbd22'], dtype='>> # there must be a matching category in adata.obs
+>>> category in adata.obs
+True
+```
+
+To test that you've done this properly, check that for your given `category` the number of colors match the number of category values and that the second command below results in a mapping from categories to colors.
+
+```text
+>>> len(adata.obs[category].cat.categories) == len(adata.uns[f"{category}_colors"])
+True
+>>> dict(zip(adata.obs[category].cat.categories, adata.uns[f"{category}_colors"]))
+{'CD4 T cells': '#1f77b4', 'CD14+ Monocytes': '#ff7f0e', 'B cells': '#2ca02c', 'CD8 T cells': '#d62728', 'NK cells': '#9467bd', 'FCGR3A+ Monocytes': '#8c564b', 'Dendritic cells': '#e377c2', 'Megakaryocytes': '#bcbd22'}
+```
+
+You can disable this feature using the `--disable-custom-colors` flag for `cellxgene launch`. cellxgene will then chose colors from its standard color palettes.
+
+
 

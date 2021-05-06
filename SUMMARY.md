@@ -14,7 +14,7 @@
 * [Quick Start](desktop/quick-start.md)
 * [Install](desktop/install.md)
 * [Data Format Requirements](desktop/data-reqs.md)
-* [Prepare \(split between adata reqs and prepare\)](desktop/prepare.md)
+* [Prepare](desktop/prepare.md)
 * [Launch](desktop/launch.md)
 * [Self-Hosting](desktop/self-hosting/README.md)
   * [NginX](desktop/self-hosting/nginx.md)
@@ -39,6 +39,5 @@
 * [FAQ](faq.md)
 * [Contact](contact.md)
 * [Code](code.md)
-* [Roadmap \(To be removed\)](roadmap.md)
 * [Demo data \(To Be Removed/put examples in self-hosting\)](demo-data.md)
 
