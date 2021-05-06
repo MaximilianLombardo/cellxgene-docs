@@ -1,5 +1,7 @@
 # Algorithms
 
+A section describing implementation details around algos in cellxgene - an explanation of commonly used algorithms in single cell analysis 
+
 ## Differential expression
 
 We're actively working on how to improve differential expression within the app. **N.B.: the** [**current implementation**](https://github.com/chanzuckerberg/cellxgene/blob/main/server/app/scanpy_engine/diffexp.py#L40) **assumes normally distributed values on a linear scale.**
