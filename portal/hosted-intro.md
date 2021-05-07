@@ -1,12 +1,10 @@
 # Introduction
 
-Explain that portal is composed of:
+More detailed introduction to portal, explain purpose, benefits, maybe dev history\(convid19cellatlas\)
 
-collections
+explain use cases where it is most appropriate to use portal and hosted explorer
 
-a collection
-
-an explorer instance of a particular dataset 
+link out to hosted explorer features section \(early redirect - too earl?\)
 
 
 

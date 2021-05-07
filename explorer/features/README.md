@@ -1,5 +1,9 @@
 # Features
 
+Explain that hosted explorer features are a subset of the desktop explorer features
+
+The "gallery" gifs will be updated and moved to universal features
+
 ## Features
 
 ### Cross-filter cells and color by metadata
