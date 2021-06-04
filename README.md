@@ -22,6 +22,7 @@ Since there are two versions of the cellxgene explorer, here is a brief rundown 
 * Coloring by categorial meta \(i.e. cell type, batch, treatment group, donor origin...\) and continuous metadata \(i.e. gene expression, QC metadata, prediction scores...\)
 * Value clipping when coloring by continuous metadata \(when outliers distort the color scale\)
 * Cell selection based on categorical metadata, numeric selection based on continuous metadata via range selection, or manual selection via lasso tool.
+* Run differential expression between custom selections of groups of cells
 * Breakdown of specific categorical metadata fields \(i.e. tissue\) by any other categorical metadata field \(i.e. cell type\)
 * Embedding display and support for multiple embeddings \(umap, tSNE, PCA, pseudotime...\)
 * Recalculate embeddings: **Desktop Explorer Only**
