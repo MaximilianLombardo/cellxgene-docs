@@ -29,7 +29,7 @@ Since there are two versions of the cellxgene explorer, here is a brief rundown 
 
 ### Quick Links
 
-For more information regarding the cellxgene data portal and data contribution, please check out the [corresponding section](portal/hosted-intro.md) in this documentation. If you are interested in learning more about the capabilities of the cellxgene explorer, you can refer to [this section](explorer/explorer-intro.md). Finally if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md).
+If you are ready and raring to see what cellxgene is capable of, you can jump right into a [hosted cellxgene explorer instance](https://cellxgene.cziscience.com/e/human_cell_landscape.cxg/) and start playing around!  For more information regarding the cellxgene data portal and data contribution, please check out the [corresponding section](portal/hosted-intro.md) in this documentation. If you are interested in learning more about the capabilities of the cellxgene explorer, you can refer to [this section](explorer/explorer-intro.md). Finally if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md).
 
 Additionally, here are some important links for resources that exist outside of this documentation site:
 
