@@ -4,13 +4,13 @@
 
 ## Portal
 
-* [Introduction](portal/hosted-intro.md)
+* [Introduction to cellxgene data portal](portal/hosted-intro.md)
 * [Data Portal](portal/data-portal.md)
 * [Publishing](portal/publishing.md)
 
 ## Desktop
 
-* [Introduction](desktop/desktop-intro.md)
+* [Introduction to cellxgene desktop](desktop/desktop-intro.md)
 * [Quick Start](desktop/quick-start.md)
 * [Install](desktop/install.md)
 * [Data Format Requirements](desktop/data-reqs.md)
@@ -27,7 +27,7 @@
 
 ## Explorer
 
-* [Introduction](explorer/explorer-intro.md)
+* [Introduction to cellxgene explorer](explorer/explorer-intro.md)
 * [Features](explorer/features/README.md)
   * [Universal Features](explorer/features/universal-features.md)
   * [Desktop Features](explorer/features/desktop-features/README.md)
