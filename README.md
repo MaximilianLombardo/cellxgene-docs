@@ -6,14 +6,20 @@ description: An overview of the cellxgene product family
 
 ![](.gitbook/assets/cellxgene_logo.svg)
 
-Cellxgene is a collection of computational tools enabling the exploration, analysis, and reuse of single cell data. The cellxgene ecosystem is currently composed of:
+Cellxgene is a collection of computational tools enabling the exploration, analysis, and reuse of single cell data. The cellxgene ecosystem is currently composed of the [cellxgene data portal](https://cellxgene.cziscience.com/) \(which includes the hosted cellxgene explorer\) and the [cellxgene desktop explorer](https://github.com/chanzuckerberg/cellxgene). 
 
-*  [cellxgene data portal](https://cellxgene.cziscience.com/) \(which includes the hosted cellxgene explorer\)
-*  [cellxgene desktop explorer](https://github.com/chanzuckerberg/cellxgene). 
+The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer, enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self hosted setup. For further reference, here is a brief rundown of potential use cases and which member of the cellxgene product family they would best served by:
 
-The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer, enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self hosted setup. Here is a brief rundown of the features in cellxgene explorer, along with the notable differences between the desktop and hosted explorers:
+* use case 1
+  * product 1
+* use case 2
+  * product 2
+* etc...
+  * etc...
 
-* Coloring by categorial meta \(i.e. cell type, batch, treatment group, donor origin...\) and continuous metadata \(i.e. gene expression, qc metadata, prediction scores...\)
+Since there are two versions of the cellxgene explorer, here is a brief rundown of the features in cellxgene explorer, along with the notable differences between the hosted and desktop versions:
+
+* Coloring by categorial meta \(i.e. cell type, batch, treatment group, donor origin...\) and continuous metadata \(i.e. gene expression, QC metadata, prediction scores...\)
 * Value clipping when coloring by continuous metadata \(when outliers distort the color scale\)
 * Cell selection based on categorical metadata, numeric selection based on continuous metadata via range selection, or manual selection via lasso tool.
 * Breakdown of specific categorical metadata fields \(i.e. tissue\) by any other categorical metadata field \(i.e. cell type\)
