@@ -1,10 +1,6 @@
 # Universal Features
 
-
-
-mention diff exp, mention that hosted has 50,000 cell limit
-
-
+Cellxgene's desktop explorer and hosted explorer have a number of features which are very useful for the exploration and interrogation of single cell data. In this section, we discuss the features which are common to bother versions of the software.
 
 ### Cross-filter cells and color by metadata
 
