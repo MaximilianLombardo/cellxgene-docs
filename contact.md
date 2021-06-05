@@ -14,11 +14,11 @@ The current core team:
 
 * Colin Megill, frontend & product design
 * Bruce Martin, software engineer
-* Sidney Bell, computational biologist
-* Lia Prins, designer
 * Severiano Badajoz, software engineer
 
 We would also like to gratefully acknowledge contributions from past core team members:
 
 * Charlotte Weaver, software engineer
+* Sidney Bell, computational biologist
+* Lia Prins, designer
 
