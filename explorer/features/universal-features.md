@@ -27,7 +27,9 @@ Differential expression can be run between selections of two different groups of
 
 ![](../../.gitbook/assets/diffexp.gif)
 
-Note: In the hosted explorer present on the cellxgene data portal, the differential expression feature has a limit of 50,000 cells \(i.e. the sum of the number of cells in group 1 and group 2 cannot exceed 50,000\). We are currently working on ways to scale this calculation in the hosted setting.
+**Note**: In the hosted explorer present on the cellxgene data portal, the differential expression feature has a limit of 50,000 cells \(i.e. the sum of the number of cells in group 1 and group 2 cannot exceed 50,000\). We are currently working on ways to scale this calculation in the hosted setting.
+
+Note: You can find more information about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broad differentially expressed markers that enable exploration \(computed on the fly\) and forego any assumptions that we could make about statistical precision. 
 
 ### See how metadata and gene expression break down across different categories
 
@@ -40,7 +42,24 @@ Cellxgene can give you information on how different categorical and continuous m
 
 One could imagine using this feature in a scenario where it is expected that certain cell types are only present in a particular disease state for instance.
 
+### Find cells where a gene is expressed
 
+Cellxgene provides functionality to select cells based on gene expression \(i.e. setting a numeric expression threshold or range\). To accomplish this, one can:
 
+1. Search for a gene of interest using the search dialog in the upper right hand corner
+2. Color by the gene which you would like to gate by
+3. Brush over the histogram of gene expression in the right hand side bar to set the minimum and maximum thresholds for gene expression
 
+![](../../.gitbook/assets/gene-expression.gif)
+
+### Compare expression of multiple genes
+
+Cellxgene, allows for the display of bi-variate scatter plots which results in FACS like plots that can be used to examine expression of custom combinations of genes.To examine and compare the expression of multiple genes in cellxgene, one can:
+
+1. Select a gene to plot on the X axis
+2. Select a gene to plot on the Y axis
+
+![](../../.gitbook/assets/compare-genes.gif)
+
+You can also also color by one of these genes to view expression in either the embedding plot of the bi-variate scatter plot. Additionally, you can still make manual selections on the embedding plot, while the bi-variate plot is active \(in the example above, we select a particular cluster where we want to view the expression relationship between the first gene and the second gene\)
 
