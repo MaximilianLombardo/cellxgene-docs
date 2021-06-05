@@ -1,4 +1,10 @@
+---
+description: How to format your data for use with cellxgene
+---
+
 # Data Format Requirements
+
+Cellxgene requires that data be represented in `AnnData` format. This page describes the data format considerations that need to be met for visualization of a single cell dataset with the desktop explorer. The data format requirements for visualizing your data in the desktop explorer are a subset of the requirements that are defined for submitting your data to the data portal. For more details on how to format a dataset for submission to the data portal, please refer to the [publishing page](../portal/publishing.md) in this documentation.
 
 ## Data structure: _anndata_ fields used for visualization
 
