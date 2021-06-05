@@ -27,5 +27,20 @@ Differential expression can be run between selections of two different groups of
 
 ![](../../.gitbook/assets/diffexp.gif)
 
+Note: In the hosted explorer present on the cellxgene data portal, the differential expression feature has a limit of 50,000 cells \(i.e. the sum of the number of cells in group 1 and group 2 cannot exceed 50,000\). We are currently working on ways to scale this calculation in the hosted setting.
+
+### See how metadata and gene expression break down across different categories
+
+Cellxgene can give you information on how different categorical and continuous metadata are distributed within any metadata field on the left-hand sidebar. To accomplish this, one simply needs to:
+
+1. Color the cells by a desired categorical or continuous metadata field.
+2. Expand another categorical metadata field to examine either the cross-occupancy \(categorical metadata\) or distribution \(continuous metadata\) within that newly expanded field.
+
+![](../../.gitbook/assets/category-breakdown.gif)
+
+One could imagine using this feature in a scenario where it is expected that certain cell types are only present in a particular disease state for instance.
+
+
+
 
 
