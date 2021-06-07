@@ -17,7 +17,7 @@ The following is a list of use cases that are fulfilled by the data portal:
 * use case 2
 * use case 3
 
-To find out about more things that you can do with the hosted explorer, you can refer to our [section on explorer features](../explorer/features/)!
+To find out about more things that you can do with the hosted explorer, you can refer to our [section on explorer features](../explorer/feature-overview/)!
 
 ### History
 

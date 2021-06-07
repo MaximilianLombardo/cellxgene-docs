@@ -27,11 +27,10 @@
 
 ## Explorer
 
-* [Introduction to cellxgene explorer](explorer/explorer-intro.md)
-* [Features](explorer/features/README.md)
-  * [Universal Features](explorer/features/universal-features.md)
-  * [Desktop Features](explorer/features/desktop-features/README.md)
-    * [Annotations](explorer/features/desktop-features/annotations.md)
+* [Feature Overview](explorer/feature-overview/README.md)
+  * [Universal Features](explorer/feature-overview/universal-features.md)
+  * [Desktop Features](explorer/feature-overview/desktop-features/README.md)
+    * [Annotations](explorer/feature-overview/desktop-features/annotations.md)
 * [Algorithms](explorer/algorithms.md)
 
 ---
