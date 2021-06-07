@@ -38,7 +38,7 @@ There are a number of teams building tools or infrastructure to better utilize c
 
 If you know of other solutions, drop us a note and we'll add to this list.
 
-### Examples of self-hosted Cellxgene
+### Live Examples of self-hosted Cellxgene
 
 Several groups have independently [deployed](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/hosted) various versions of cellxgene to the web. Check out the cool data that our users are using cellxgene to explore!
 

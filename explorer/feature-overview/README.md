@@ -2,7 +2,9 @@
 description: Explaining the capabilities of the cellxgene's hosted and desktop explorers
 ---
 
-# Feature Overview
+# Feature Intro and UI
+
+### Feature Intro
 
 Cellxgene explorer is the core tool which allows for real time interaction and exploration with a single cell data set. On our hosted system, this means that analysis of a hosted dataset is just a click away. Features of the explorer allow for common operations on single cell datasets such as querying gene expression and performing selection based on metadata \(among other tasks\). All features in the hosted explorer are present in the desktop explorer in addition to two desktop only features: computing re-embedding and annotations. You will learn more about [general features](universal-features.md) and  [desktop only features](desktop-features/) later in this section.
 

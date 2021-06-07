@@ -1,4 +1,8 @@
-# Demo data \(To Be Removed/put examples in self-hosting\)
+---
+description: Additional demo datasets for cellxgene desktop
+---
+
+# Demo data
 
 ## Example datasets
 

@@ -1,4 +1,4 @@
-# Introduction to cellxgene desktop
+# Intro to Cellxgene Desktop
 
 introduction explaining the desktop product
 

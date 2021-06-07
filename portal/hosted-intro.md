@@ -1,4 +1,4 @@
-# Introduction to cellxgene data portal
+# Intro to Cellxgene Data Portal
 
 ### About
 
