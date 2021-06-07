@@ -21,7 +21,6 @@
   * [Cellxgene Gateway Proxy Example](desktop/self-hosting/cellxgene-gateway-proxy.md)
   * [Elastic Bean Stalk](desktop/self-hosting/elastic-bean-stalk.md)
   * [Heroku](desktop/self-hosting/heroku.md)
-  * [Hosted Original Page](desktop/self-hosting/hosted-original-page.md)
 * [Third Party Extensions](desktop/third-party-extensions.md)
 * [Contribute](desktop/contribute.md)
 

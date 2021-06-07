@@ -16,6 +16,10 @@ To get an overview of the curation process, you can refer to the following [tuto
 
 Explain the concept of publishing on cellxgene \(need help from Ambrose\)
 
+
+
+### Archive \(To Be deleted\)
+
 ~~Link to single-cell curation repo~~
 
 ~~link to curation tutorial~~
