@@ -1,3 +1,7 @@
+---
+description: Hosting Advice and Recipes
+---
+
 # Self-Hosting
 
 ## Hosting cellxgene on the web
