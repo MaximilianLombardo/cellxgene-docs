@@ -1,4 +1,4 @@
-# Intro to Portal
+# Intro to Portal and Publishing
 
 ### About
 
@@ -11,11 +11,11 @@ The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell 
 
 ### Use Cases
 
-The following is a list of use cases that are fulfilled by the data portal:
+Data portal is a logical choice for the following tasks:
 
-* use case 1
-* use case 2
-* use case 3
+* Searching a standardized data corpus to find relevant single cell datasets and downloading for reuse
+* Showcasing data from a publication and allowing readers to interact with data 
+* Comparison and basic integration across single cell datasets \(future\)
 
 To find out about more things that you can do with the hosted explorer, you can refer to our [section on explorer features](../explorer/feature-overview/)!
 
