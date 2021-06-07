@@ -6,12 +6,12 @@ Cellxgene is a collection of computational tools enabling the exploration, analy
 
 The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup. In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(ex: needing to make use of the [desktop only features](explorer/feature-overview/desktop-features/)\)  For further reference, here is a brief rundown of potential use cases and which member of the cellxgene product family they would best served by:
 
-* use case 1
-  * hosted
-* use case 2
-  * hosted
-* use case 3
-  * desktop
+* Publishing single cell data
+  * **hosted**
+* Finding relevant single cell datasets and running comparisons between them
+  * **hosted**
+* Setting up a self-hosted system or making use of the [desktop only features](explorer/feature-overview/desktop-features/)
+  * **desktop**
 
 To get a sense of the capabilities of the cellxgene explorer, here is a rundown of its features, along with the notable differences between the hosted and desktop versions:
 

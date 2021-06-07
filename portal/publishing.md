@@ -28,7 +28,7 @@ If you have any further questions around data submission and requirements, feel 
 
 ~~link to curation tutorial~~
 
-Explain the concept of publishing on cellxgene \(need help from Ambrose\)
+Explain the concept of publishing on cellxgene \(need help from Ambrose? Is this sufficient\)
 
 
 
