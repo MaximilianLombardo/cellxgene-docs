@@ -4,13 +4,13 @@
 
 ## Portal
 
-* [Intro to Cellxgene Data Portal](portal/hosted-intro.md)
+* [Intro to Portal](portal/hosted-intro.md)
 * [Data Portal](portal/data-portal.md)
 * [Publishing](portal/publishing.md)
 
 ## Desktop
 
-* [Intro to Cellxgene Desktop](desktop/desktop-intro.md)
+* [Intro to Desktop](desktop/desktop-intro.md)
 * [Quick Start](desktop/quick-start/README.md)
   * [Demo data](desktop/quick-start/demo-data.md)
 * [Install](desktop/install.md)

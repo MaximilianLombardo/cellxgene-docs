@@ -1,4 +1,4 @@
-# Intro to Cellxgene Desktop
+# Intro to Desktop
 
 Cellxgene Desktop is the version of cellxgene that should be used in cases where data is stored locally or in a self-hosted situation. It is launched via the command line with a reference to the local path of a properly formatted `AnnData` object. It is an appropriate choice for the following use cases:
 
