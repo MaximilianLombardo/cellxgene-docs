@@ -23,11 +23,15 @@ The cellxgene team
 
 ### Notes:
 
-Need familiarity with IAM and S3 
+Need familiarity with [IAM](https://aws.amazon.com/iam/) and [S3](https://aws.amazon.com/s3/) 
+
+### Tutorial and Code:
 
 {% embed url="https://github.com/chanzuckerberg/cellxgene/tree/main/backend/czi\_hosted/eb" %}
 
-Need familiarity with IAM and S3, propose as a read only version of hosted with the desktop app \(go with this!\)
+### Archive \(to be deleted\):
+
+~~Need familiarity with IAM and S3, propose as a read only version of hosted with the desktop app \(go with this!\)~~
 
 ~~Docker image + EB setup?~~
 
