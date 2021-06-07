@@ -5,7 +5,7 @@ Cellxgene Desktop is the version of cellxgene that should be used in cases where
 * Data is proprietary or highly sensitive
 * Collaborative use \(necessitating need of annotations feature\)
 
-Besides the annotations feature, another distinguishing feature of cellxgene desktop is to be able to recompute a new embedding based on a selection of cells. For a more complete feature description and descriptions of how to execute them in cellxgene, refer to our [explorer documentation](../explorer/feature-overview/). 
+Besides the annotations feature, another distinguishing feature of cellxgene desktop is to be able to recompute a new embedding based on a selection of cells. For a more complete feature description and descriptions of how to execute them in cellxgene, refer to our [explorer documentation](../explorer/feature-overview/). Otherwise, continue onto the next section to start demoing the desktop explorer.
 
 ~~~~
 
