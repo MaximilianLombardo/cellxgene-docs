@@ -19,6 +19,14 @@ Data portal is a logical choice for the following tasks:
 
 To find out about more things that you can do with the hosted explorer, you can refer to our [section on explorer features](../explorer/feature-overview/)!
 
+### Portal Features
+
+* Download datasets in commonly used single cell data formats \(direct download or curl links provided\)
+* hosted explorer
+* Download gene sets
+* Where's My Gene
+* API
+
 ### History
 
 The platform itself evolved from a cellxgene based system \(the [COVID-19 data portal\)](https://www.covid19cellatlas.org/) that was developed to host single cell datasets related to COVD-19 in the face of the 2020 global pandemic. Since then, the cellxgene team has reacted to the need for a more generalized system that could increase access to single cell data and subsequently increase the velocity of biomedical research.

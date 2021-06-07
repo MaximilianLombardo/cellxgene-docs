@@ -14,7 +14,7 @@ Generally, submissions to the data portal are organized by the publication that 
 
 ![An example collection from the Teichmann group \(https://doi.org/10.1038/s41586-020-2797-4\)](../.gitbook/assets/image%20%286%29.png)
 
-Again, you can see that for each dataset, the same metadata that was available for the collection, is now available in a more granular \(per dataset\) way. Importantly, we also see two new options for downloading and exploring data. These options are accessed by the last two icons in the image below:
+Now you can see that for each dataset, the same metadata that was available at the collection level, is now available in a more granular \(per dataset\) way. Importantly, we also see two new options for downloading and exploring data. These options are accessed by the last two icons in the image below:
 
 ![Dataset entry in a collection page](../.gitbook/assets/image%20%283%29.png)
 
