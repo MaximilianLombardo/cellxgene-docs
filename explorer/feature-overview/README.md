@@ -10,7 +10,7 @@ Cellxgene explorer is the core tool which allows for real time interaction and e
 
 ### User Interface
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 Cellxgene's user interface organizes single cell data similarly to how it is organized in commonly used single cell data formats. On the lefthand side, you can find information about categorical sample metadata \(observations\). The right hand sidebar contains information about continuous observational metadata and variable metadata \(i.e. expression\). Finally in the center, you can find the embedding scatterplot displaying the data.
 
@@ -20,7 +20,7 @@ Important icons and functionalities in cellxgene's user interface are displayed 
 
  
 
-![Cellxgene toolbar](../../.gitbook/assets/image%20%2812%29.png)
+![Cellxgene toolbar](../../.gitbook/assets/image%20%2813%29.png)
 
 The cellxgene toolbar buttons provide the following functionalities:
 
