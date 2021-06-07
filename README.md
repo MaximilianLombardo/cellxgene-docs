@@ -1,7 +1,3 @@
----
-description: An overview of the cellxgene product family
----
-
 # Overview
 
 ![](.gitbook/assets/cellxgene_logo.svg)
