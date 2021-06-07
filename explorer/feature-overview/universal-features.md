@@ -23,7 +23,7 @@ Differential expression can be run between selections of two different groups of
 
 ![](../../.gitbook/assets/diffexp.gif)
 
-**Note**: In the hosted explorer present on the cellxgene data portal, the differential expression feature has a limit of 50,000 cells \(i.e. the sum of the number of cells in group 1 and group 2 cannot exceed 50,000\). We are currently working on ways to scale this calculation in the hosted setting.
+**Note**: In the hosted explorer present on the cellxgene data portal, the differential expression feature has a limit of 50,000 cells \(i.e. the sum of the number of cells in group 1 and group 2 cannot exceed 50,000\). You can workaround this by only selecting subsamples of large clusters. We are currently working on ways to scale this calculation in the hosted setting.
 
 **Note**: You can find more information [here](../algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broad differentially expressed markers that enable exploration \(computed on the fly\) and forego any assumptions that we could make about statistical precision. 
 
