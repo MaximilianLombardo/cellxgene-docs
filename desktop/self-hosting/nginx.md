@@ -1,8 +1,10 @@
-# NginX
+# AWS/Linux server with basic authentication
 
-Contributed by: Lisa Sikkema and Thomas...
+### **Contributors**:
 
-### Requirements:
+Lisa Sikkema and Thomas Walzthoeni
+
+### Hosting Use Case:
 
 * Private self-hosting on an EC2 instance
 * Access by external collaborators and potentially password authentication
