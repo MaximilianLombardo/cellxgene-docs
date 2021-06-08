@@ -10,6 +10,8 @@ This section of the documentation aims to explain how the [cellxgene data portal
 
 ![Cellxgene home page](../.gitbook/assets/image.png)
 
+**Note**: While in the future, it will be possible to seach and filter datasets that are in the data portal via a search and filter toolbar, the best way to find datasets from a particular author or tissue is to `CTRL + F` to find the matching text \(of your desired query\) on the page.
+
 Generally, submissions to the data portal are organized by the publication that they are associated \(we name these Collections\). Each collection is associated with one or more datasets \(typically those that were featured in the publication\). In the image above you can also see various collection level metadata such as tissue profiled, assay used, disease, organism, and cell count. You can view the datasets associated with a collection by clicking on a particular collection name:
 
 ![An example collection from the Teichmann group \(https://doi.org/10.1038/s41586-020-2797-4\)](../.gitbook/assets/image%20%286%29.png)
