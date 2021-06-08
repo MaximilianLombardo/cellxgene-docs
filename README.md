@@ -28,7 +28,12 @@ To learn more about how to achieve these tasks in cellxgene, take a look at our 
 
 ### Quick Links
 
-If you are ready and raring to see what cellxgene is capable of, you can jump right into a [hosted cellxgene explorer instance](https://cellxgene.cziscience.com/e/human_cell_landscape.cxg/) and start playing around!  For more information regarding the cellxgene data portal and data contribution, please check out the [corresponding section](portal/hosted-intro.md) in this documentation. If you are interested in learning more about the capabilities of the cellxgene explorer, you can refer to the [explorer documentation](explorer/feature-overview/). Finally if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md).
+If you are ready and raring to see what cellxgene is capable of, you can:
+
+* jump right into a [hosted cellxgene explorer instance](https://cellxgene.cziscience.com/e/human_cell_landscape.cxg/) and start exploring
+* find out more about the cellxgene data portal and data contribution in the [corresponding section](portal/hosted-intro.md) of this documentation
+* read about how to use the cellxgene explorer via the [explorer documentation](explorer/feature-overview/)
+* or if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md).
 
 Additionally, here are some important links for resources that exist outside of this documentation site:
 

@@ -8,6 +8,14 @@
 * [Data Portal](portal/data-portal.md)
 * [Publishing](portal/publishing.md)
 
+## Explorer
+
+* [Feature Intro and UI](explorer/feature-overview/README.md)
+  * [Universal Features](explorer/feature-overview/universal-features.md)
+  * [Desktop Features](explorer/feature-overview/desktop-features/README.md)
+    * [Annotations](explorer/feature-overview/desktop-features/annotations.md)
+* [Algorithms](explorer/algorithms.md)
+
 ## Desktop
 
 * [Intro to Desktop](desktop/desktop-intro.md)
@@ -24,14 +32,6 @@
   * [Heroku](desktop/self-hosting/heroku.md)
 * [Third Party Extensions](desktop/third-party-extensions.md)
 * [Contribute](desktop/contribute.md)
-
-## Explorer
-
-* [Feature Intro and UI](explorer/feature-overview/README.md)
-  * [Universal Features](explorer/feature-overview/universal-features.md)
-  * [Desktop Features](explorer/feature-overview/desktop-features/README.md)
-    * [Annotations](explorer/feature-overview/desktop-features/annotations.md)
-* [Algorithms](explorer/algorithms.md)
 
 ---
 
