@@ -39,7 +39,6 @@ Additionally, here are some important links for resources that exist outside of 
 
 * [cellxgene data portal](https://cellxgene.cziscience.com/)
 * [cellxgene github repo](https://github.com/chanzuckerberg/cellxgene)
-* ...
 
 
 
