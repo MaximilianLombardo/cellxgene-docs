@@ -4,9 +4,7 @@
 
 We'd love to hear from you!
 
-For questions, suggestions, or accolades, [join the `#cellxgene-users` channel on the CZI Science Slack](https://join-cellxgene-users.herokuapp.com/) and say "hi!".
-
-For any errors, [report bugs on Github](https://github.com/chanzuckerberg/cellxgene/issues).
+For questions and suggestions, or to report bugs, file an issue in our [github](https://github.com/chanzuckerberg/cellxgene).
 
 ## Team
 
