@@ -11,8 +11,8 @@ Cellxgene desktop is intended to be used by researchers on their local machines.
 Here are some examples of scenarios where self-hosting would be advantageous:
 
 * you need to share data with collaborators \(in a private or public manner\) and cannot submit your data to the portal because of controlled access to your data
-* you need access to features such as experimental re-embeddding \(which is not available in the hosted version of the system\)
-* You are still generating data and working to finalize your submission.
+* you need access to features such as experimental re-embeddding or annotations \(which are not available in the hosted version of the system\)
+* You are still generating data and working to finalize your submission
 
 To help you consider a self-hosting path , you can check out examples of how other groups have approached this [below](./#live-examples-of-self-hosted-cellxgene-desktop). While we don't officially support web deployment, we've offered some guidance in the following sections on ways to deploy cellxgene to the web.
 
