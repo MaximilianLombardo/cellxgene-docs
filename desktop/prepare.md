@@ -23,7 +23,7 @@ You can control which steps to run and their methods \(when applicable\), via th
 
 ### Quickstart for `cellxgene prepare`
 
-To add `cellxgene prepare` to your [cellxgene installation](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/install), run `pip install cellxgene[prepare]`
+To add `cellxgene prepare` to your [cellxgene installation](install.md), run `pip install cellxgene[prepare]`
 
 Then run `prepare` on your data with:
 
