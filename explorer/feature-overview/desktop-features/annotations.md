@@ -113,5 +113,5 @@ We place a small cookie \(file\) in your browser that identifies where your draf
 
 #### I have feedback and ideas for you!
 
-Wonderful! This is a relatively new feature; we would _love_ to [hear your feedback](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/contact) :\)
+Wonderful! This is a relatively new feature; we would _love_ to [hear your feedback](../../../contact.md) :\)
 
