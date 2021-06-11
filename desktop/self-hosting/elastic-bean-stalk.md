@@ -29,12 +29,6 @@ Need familiarity with [IAM](https://aws.amazon.com/iam/) and [S3](https://aws.am
 
 {% embed url="https://github.com/chanzuckerberg/cellxgene/tree/main/backend/czi\_hosted/eb" %}
 
-### Archive \(to be deleted\):
-
-~~Need familiarity with IAM and S3, propose as a read only version of hosted with the desktop app \(go with this!\)~~
-
-~~Docker image + EB setup?~~
-
 ~~~~
 
 
