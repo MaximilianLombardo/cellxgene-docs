@@ -2,12 +2,12 @@
 
 ### About
 
-The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell publishing platform that is optimized for the access, exploration, and reuse of single cell data. The data portal currently accepts high impact datasets that are standardized according to [succinctly defined data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/corpora_schema.md). In addition to providing a standardized data corpus, the cellxgene data portal offers the following benefits:
+The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell publishing platform that is optimized for the access, exploration, and reuse of single cell data. The data portal currently accepts high impact datasets that are standardized according to a [succinctly defined data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/corpora_schema.md). In addition to providing a standardized data corpus, the cellxgene data portal offers the following benefits:
 
-* link permanence \(you can reference in your publication without ever worrying about dead links\)
+* link permanence \(you can reference cellxgene data portal links in your publication without ever worrying about dead links\)
 * sharing of private datasets with collaborators \(keep the data private until it is ready for publication\)
 * no barrier for readers to explore your dataset \(and no need for you to build your own single cell data explorer\)
-* availability of datasets in the major single cell data formats \(including `AnnData`, `seurat`, and `loom`\)
+* availability of datasets for download in the major single cell data formats \(including `AnnData`, `seurat`, and `loom`\)
 
 ### Use Cases
 
