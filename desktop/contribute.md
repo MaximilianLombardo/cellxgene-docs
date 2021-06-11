@@ -54,7 +54,7 @@ pip install -e .
 
 You can start the app while developing either by calling `cellxgene` or by calling `python -m server`. We recommend using the `--debug` flag to see more output, which you can include when reporting bugs.
 
-If you have any questions about developing or contributing, come hang out with us by joining the [CZI Science Slack](https://join-cellxgene-users.herokuapp.com/) and posting in the `#cellxgene-dev` channel.
+If you have any questions about developing or contributing, come hang out with us by posting an issue in our [github](https://github.com/chanzuckerberg/cellxgene).
 
 ### Contributing code
 
