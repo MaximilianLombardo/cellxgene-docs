@@ -18,7 +18,7 @@
 
 ## Desktop
 
-* [Intro to Desktop](desktop/desktop-intro.md)
+* [Intro to Desktop Explorer](desktop/desktop-intro.md)
 * [Quick Start](desktop/quick-start/README.md)
   * [Demo data](desktop/quick-start/demo-data.md)
 * [Install](desktop/install.md)
