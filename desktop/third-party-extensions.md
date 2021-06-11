@@ -2,7 +2,7 @@
 
 This project was started with the sole goal of empowering the scientific community to explore and understand their data. As such, we encourage other scientific tool builders in academia or industry to adopt the patterns, tools, and code from this project. All code is freely available for reuse under the [MIT license](https://opensource.org/licenses/MIT).
 
-Before extending cellxgene, we encourage you to reach out to us with ideas or questions. It might be possible that an extension could be directly contributed, which would make it available for a wider audience, or that it's on our [roadmap](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/roadmap.md) and under active development.
+Before extending cellxgene, we encourage you to reach out to us with ideas or questions. It might be possible that an extension could be directly contributed, which would make it available for a wider audience, or that it's on our roadmap and under active development.
 
 Please note that cellxgene does not have public APIs. Our development may break extensions. We will document changes to the code base but it is advised that extensions pin the version of cellxgene they develop against.
 
