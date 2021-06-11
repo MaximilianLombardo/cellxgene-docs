@@ -1,43 +1,17 @@
 # Intro to Portal and Publishing
 
-### About
+### About and use cases
 
-The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell publishing platform that is optimized for the access, exploration, and reuse of single cell data. The data portal currently accepts high impact datasets that are standardized according to a [succinctly defined data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/corpora_schema.md). In addition to providing a standardized data corpus, the cellxgene data portal offers the following benefits:
+The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell publishing platform that is optimized for the access, exploration, and reuse of single cell data. The data portal currently accepts high impact datasets that are standardized according to a [succinctly defined data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/corpora_schema.md). In addition to providing a standardized data corpus, the cellxgene data portal serves the following use cases:
 
-* link permanence \(you can reference cellxgene data portal links in your publication without ever worrying about dead links\)
-* sharing of private datasets with collaborators \(keep the data private until it is ready for publication\)
-* no barrier for readers to explore your dataset \(and no need for you to build your own single cell data explorer\)
-* availability of datasets for download in the major single cell data formats \(including `AnnData`, `seurat`, and `loom`\)
+* **Citation:** the portal provides permanent publication links that can be cited in your paper or preprint \(no more dead links!\)
+* **Private Collaboration:** sharing of private datasets with collaborators via private links \(keep the data private until it is ready for publication\)
+* **Instant Data Exploration:** no barrier for readers to explore your dataset \(and no need for you to build your own single cell data explorer\)
+* **Data Reuse:** availability of datasets for download in the major single cell data formats \(including `AnnData`, `seurat`, and `loom`\)
 
-### Use Cases
-
-Data portal is a logical choice for the following tasks:
-
-* Searching a standardized data corpus to find relevant single cell datasets and downloading for reuse
-* Showcasing data from a publication and allowing readers to interact with data 
-* Comparison and basic integration across single cell datasets \(future\)
-
-To find out about more things that you can do with the hosted explorer, you can refer to our [section on explorer features](../explorer/feature-overview/)!
-
-### Portal Features
-
-* Download datasets in commonly used single cell data formats \(direct download or curl links provided\)
-* hosted explorer
-* Download gene sets
-* Where's My Gene
-* API
+As we develop the functionality of our data portal, you can look forward to being able to compare expression of genes across datasets and perform basic data integration.In the meantime, you can find out how to explore data using the hosted explorer by referring to our [section on explorer features](../explorer/feature-overview/)!
 
 ### History
 
 The platform itself evolved from a cellxgene based system \(the [COVID-19 data portal\)](https://www.covid19cellatlas.org/) that was developed to host single cell datasets related to COVD-19 in the face of the 2020 global pandemic. Since then, the cellxgene team has reacted to the need for a more generalized system that could increase access to single cell data and subsequently increase the velocity of biomedical research.
-
-### Notes \(to be deleted\)
-
-~~More detailed introduction to portal, explain purpose, benefits, maybe dev history\(convid19cellatlas\)~~
-
-~~explain use cases where it is most appropriate to use portal and hosted explorer~~
-
-~~link out to hosted explorer features section \(early redirect - too earl?\)~~
-
-~~~~
 
