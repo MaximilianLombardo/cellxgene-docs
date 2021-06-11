@@ -68,11 +68,7 @@ Depending on your background and interests, you might want to contribute to the 
 
 Please submit any direct contributions via a Pull Request. It'd be great for PRs to include test cases and documentation updates where relevant, though we know the core test suite is itself still a work in progress.
 
-### ~~Contributing documentation~~
+### Contributing documentation
 
-~~The documentation is written in~~ [~~markdown~~](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)~~, and lives in the directory `cellxgene/docs/posts`. You can directly edit or add to these files and submit a Pull Request as described above.~~
-
-~~To preview your changes on your local machine, you'll need to install Jekyll and Ruby using~~ [~~these instructions~~](https://jekyllrb.com/docs/installation/) ~~\(you don't have to know how to program in Ruby, just install it\).~~
-
-~~You can then preview your changes by running `cellxgene/docs$ bundle exec jekyll serve` and navigating to the url indicated in the terminal.~~
+This documentation is written using [gitbook](https://www.gitbook.com/). Feel free to [contact us](mailto:cellxgene@chanzuckerberg.com) if you would like to contribute documentation or suggest edits to our documentation.
 

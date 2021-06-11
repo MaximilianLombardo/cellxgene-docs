@@ -1,6 +1,6 @@
 # FAQ
 
-## Troubleshooting tips & tricks
+## Desktop
 
 ### I tried to `pip install cellxgene` and got a weird error I don't understand
 
@@ -17,6 +17,10 @@ If your dataset requires gigabytes of disk space, you may need to select an appr
 ### I'm following the developer instructions and get an error about "missing files and directories” when trying to build the client
 
 This is likely because you do not have node and npm installed, we recommend using [nvm](https://github.com/creationix/nvm) if you're new to using these tools.
+
+## Portal
+
+### Coming soon!
 
 ## Getting help
 
