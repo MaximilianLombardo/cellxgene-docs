@@ -35,9 +35,3 @@ The cellxgene toolbar buttons provide the following functionalities:
 
 Now that we have established a sense of the functionality in our UI, let's go ahead and what types of operations can be performed with these tools.
 
-### Archive \(To be Deleted\)
-
-~~Introduction to the cellxgene explorer, note on differentiating specific features the hosted vs desktop systems - more of a plug for hosted than desktop? Assuming our goal is to drive people to hosted system when possible~~
-
-~~Explain that hosted explorer features are a subset of the desktop explorer features~~
-
