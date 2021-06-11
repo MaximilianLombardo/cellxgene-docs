@@ -25,11 +25,3 @@ Start multiple cellxgene-gateway instances for each of the different user groups
 
 
 
-
-
-### Archive \(To be deleted\)
-
-TODO: reach out to fabian and see what level of support they are willing to provide
-
-
-
