@@ -6,8 +6,8 @@ The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell 
 
 * **Citation:** the portal provides permanent publication links that can be cited in your paper or preprint \(no more dead links!\)
 * **Private Collaboration:** sharing of private datasets with collaborators via private links \(keep the data private until it is ready for publication\)
-* **Instant Data Exploration:** no barrier for readers to explore your dataset \(and no need for you to build your own single cell data explorer\)
-* **Data Reuse:** availability of datasets for download in the major single cell data formats \(including `AnnData`, `seurat`, and `loom`\)
+* **Instant Data Exploration:** no barrier for readers to explore your dataset \(readers can plot gene expression in a published dataset and more without the need for you to build your own single cell data explorer\)
+* **Data Reuse:** availability of datasets for download in the major single cell data formats \(this allows you or your computational collaborators to get access to publication data in formats that will easily slot into your preferred single cell analysis toolchain including `AnnData`, `seurat`, and `loom`\)
 
 As we develop the functionality of our data portal, you can look forward to being able to compare expression of genes across datasets and perform basic data integration.In the meantime, you can find out how to explore data using the hosted explorer by referring to our [section on explorer features](../explorer/feature-overview/)!
 
