@@ -50,7 +50,7 @@ If you know of other solutions, drop us a note and we'll add to this list.
 
 ### Live Examples of self-hosted Cellxgene Desktop
 
-Several groups have independently [deployed](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/hosted) various versions of cellxgene to the web. Check out the cool data that our users are using cellxgene to explore!
+Several groups have independently deployed various versions of cellxgene to the web. Check out the cool data that our users are using cellxgene to explore!
 
 [Kidney cell atlas](https://www.kidneycellatlas.org/)
 
@@ -62,5 +62,5 @@ Several groups have independently [deployed](https://github.com/chanzuckerberg/c
 
 [CZI's own cellxgene site](https://cellxgene.cziscience.com/)
 
-_Want us to link to your dataset here?_ [_Just send us a note!_](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/contact)
+_Want us to link to your dataset here?_ [_Just send us a note!_](../../contact.md)
 
