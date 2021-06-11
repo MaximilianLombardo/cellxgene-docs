@@ -4,7 +4,7 @@
 
 Cellxgene desktop has two parts:
 
-* [`cellxgene`](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/launch) is the main explorer application, which takes an already-processed `h5ad` file as input. This is installed by default.
+* [`cellxgene`](launch.md) is the main explorer application, which takes an already-processed `h5ad` file as input. This is installed by default.
 * [`cellxgene prepare`](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/prepare) provides auxiliary functionality for preparing your dataset. This is _not_ installed by default.
 
 ### Requirements
