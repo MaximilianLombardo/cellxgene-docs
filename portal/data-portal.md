@@ -36,19 +36,3 @@ By clicking the cellxgene explorer icon \(![](../.gitbook/assets/image%20%287%29
 
 Once you are in "explorer" mode, you will be able to color the cells by various metadata, perform complex cell selection, and more! To read about the various explorations and analyses that you can do in the cellxgene explorer, please refer to the [explorer section of this documentation](../explorer/feature-overview/).
 
-
-
-
-
-### Notes \(to be removed\)
-
-~~Explain that portal is composed of:~~
-
-~~collections~~
-
-~~a collection~~
-
-~~an explorer instance of a particular dataset~~ 
-
-~~screenshots of exploring datasets~~
-
