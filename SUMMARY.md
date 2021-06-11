@@ -4,9 +4,9 @@
 
 ## Portal
 
-* [Intro to Portal and Publishing](portal/hosted-intro.md)
+* [Intro to Portal](portal/hosted-intro.md)
 * [Data Portal](portal/data-portal.md)
-* [Publishing](portal/publishing.md)
+* [Publishing and Data Submission](portal/publishing.md)
 
 ## Explorer
 
