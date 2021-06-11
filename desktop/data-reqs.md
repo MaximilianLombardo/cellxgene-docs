@@ -8,9 +8,9 @@ Cellxgene requires that data be represented in `AnnData` format. This page descr
 
 ## Data structure: _anndata_ fields used for visualization
 
-### Expression data
+### Matrix data
 
-Gene expression values are pulled from `anndata.X`. These feed into the histograms, scatterplot, colorscale, and differential expression calculations. We're [working on ways](https://github.com/chanzuckerberg/cellxgene/issues/689) to incorporate `anndata.raw` and other `anndata.layers`!
+ Values from the data matrix to be visualized \(i.e. gene expression values in the case of scRNA-seq\) are pulled from `anndata.X`. These feed into the histograms, scatterplot, colorscale, and differential expression calculations. We're [working on ways](https://github.com/chanzuckerberg/cellxgene/issues/689) to incorporate `anndata.raw` and other `anndata.layers`!
 
 ### Metadata
 
