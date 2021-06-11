@@ -35,7 +35,7 @@ We hear you! We'd also love to be able to ingest these files directly. This isn'
 
 #### Can I use data hosted on the web somewhere?
 
-Yes! You can launch from a URL instead of a filepath. The same data format requirements apply. Please see [here](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/launch) for more details.
+Yes! You can launch from a URL instead of a filepath. The same data format requirements apply. Please see [here](launch.md) for more details.
 
 ## Data format options
 

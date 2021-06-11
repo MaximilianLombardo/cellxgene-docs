@@ -1,10 +1,8 @@
 # Heroku
 
-## Heroku Support
+## Self-hosting with Heroku
 
-The cellxgene team has decided to end our support for our experimental deploy to Heroku button as we move towards providing a supported method of hosted cellxgene.
-
-While we no longer directly support Heroku, it is still possible to create a Heroku app via [our provided Dockerfile here](https://github.com/chanzuckerberg/cellxgene/blob/main/Dockerfile) and [Heroku's documentation](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml).
+You can create a Heroku app via [our provided Dockerfile here](https://github.com/chanzuckerberg/cellxgene/blob/main/Dockerfile) and [Heroku's documentation](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml).
 
 You may have to tweak the `Dockerfile` like so:
 
