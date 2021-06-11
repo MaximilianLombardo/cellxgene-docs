@@ -4,11 +4,17 @@ description: Hosting Advice and Recipes
 
 # Self-Hosting
 
-## Hosting cellxgene on the web
+## Hosting cellxgene desktop on the web
 
-Cellxgene is intended to be used by researchers on their local machines. However, we recognize that sharing and exploring data on the web is important. We're exploring how we could better support this in the future, and [would welcome your input](https://github.com/chanzuckerberg/cellxgene/issues/875)!
+Cellxgene desktop is intended to be used by researchers on their local machines. However, we recognize that sharing and exploring data on the web is important. We're exploring how we could better support this in the future, and [would welcome your input](https://github.com/chanzuckerberg/cellxgene/issues/875)!
 
-In the meantime, you can see examples of how other groups have approached this in our [gallery](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/gallery). While we don't officially support web deployment, we've offered some guidance below on one way to deploy cellxgene to the web.
+Here are some examples of scenarios where self-hosting would be advantageous:
+
+* you need to share data with collaborators \(in a private or public manner\) and cannot submit your data to the portal because of controlled access to your data
+* you need access to features such as experimental re-embeddding \(which is not available in the hosted version of the system\)
+* You are still generating data and working to finalize your submission.
+
+To help you consider a self-hosting path , you can check out examples of how other groups have approached this [below](./#live-examples-of-self-hosted-cellxgene-desktop). While we don't officially support web deployment, we've offered some guidance in the following sections on ways to deploy cellxgene to the web.
 
 ### General notes and cautions
 
@@ -38,23 +44,23 @@ The following configuration options require special consideration in any multi-u
 There are a number of teams building tools or infrastructure to better utilize cellxgene in a multiple user environment. While we do not endorse any particular solution, you may find the following helpful.
 
 * [Novartis Cellxgene Gateway](https://github.com/Novartis/cellxgene-gateway) - a multiple-user and multiple-dataset gateway for cellxgene.
-* Interactive Enviroment in the [Galaxy Project](https://galaxyproject.org/) \([patch notes](https://docs.galaxyproject.org/en/release_19.05/releases/19.05_announce.html)\)
+* Interactive Environment in the [Galaxy Project](https://galaxyproject.org/) \([patch notes](https://docs.galaxyproject.org/en/release_19.05/releases/19.05_announce.html)\)
 
 If you know of other solutions, drop us a note and we'll add to this list.
 
-### Live Examples of self-hosted Cellxgene
+### Live Examples of self-hosted Cellxgene Desktop
 
 Several groups have independently [deployed](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/hosted) various versions of cellxgene to the web. Check out the cool data that our users are using cellxgene to explore!
 
-### [Kidney cell atlas](https://www.kidneycellatlas.org/)
+[Kidney cell atlas](https://www.kidneycellatlas.org/)
 
-### [Tabula muris senis](https://tabula-muris-senis.ds.czbiohub.org/)
+[Tabula muris senis](https://tabula-muris-senis.ds.czbiohub.org/)
 
-### [Hemocytes](https://hemocytes.cellgeni.sanger.ac.uk/)
+[Hemocytes](https://hemocytes.cellgeni.sanger.ac.uk/)
 
-### [Melanoma](https://melanoma.cellgeni.sanger.ac.uk/)
+[Melanoma](https://melanoma.cellgeni.sanger.ac.uk/)
 
-### [CZI's own cellxgene site](https://cellxgene.cziscience.com/)
+[CZI's own cellxgene site](https://cellxgene.cziscience.com/)
 
 _Want us to link to your dataset here?_ [_Just send us a note!_](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/contact)
 
