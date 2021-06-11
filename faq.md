@@ -18,3 +18,11 @@ If your dataset requires gigabytes of disk space, you may need to select an appr
 
 This is likely because you do not have node and npm installed, we recommend using [nvm](https://github.com/creationix/nvm) if you're new to using these tools.
 
+## Getting help
+
+We'd love to hear from you!
+
+For questions, suggestions, or accolades, [join the `#cellxgene-users` channel on the CZI Science Slack](https://join-cellxgene-users.herokuapp.com/) and say "hi!".
+
+For any errors, [report bugs on Github](https://github.com/chanzuckerberg/cellxgene/issues).
+

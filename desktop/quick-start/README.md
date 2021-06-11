@@ -16,11 +16,5 @@ cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
 
 To explore more datasets already formatted for cellxgene, check out the [demo data](demo-data.md) or see [the data requirements section](../data-reqs.md) to learn more about formatting your own data for cellxgene.
 
-## Getting help
 
-We'd love to hear from you!
-
-For questions, suggestions, or accolades, [join the `#cellxgene-users` channel on the CZI Science Slack](https://join-cellxgene-users.herokuapp.com/) and say "hi!".
-
-For any errors, [report bugs on Github](https://github.com/chanzuckerberg/cellxgene/issues).
 
