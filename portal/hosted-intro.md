@@ -11,6 +11,8 @@ The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell 
 
 As we develop the functionality of our data portal, you can look forward to being able to compare expression of genes across datasets and perform basic data integration.In the meantime, you can find out how to explore data using the hosted explorer by referring to our [section on explorer features](../explorer/feature-overview/)!
 
+
+
 ### History
 
 The platform itself evolved from a cellxgene based system \(the [COVID-19 data portal\)](https://www.covid19cellatlas.org/) that was developed to host single cell datasets related to COVD-19 in the face of the 2020 global pandemic. Since then, the cellxgene team has reacted to the need for a more generalized system that could increase access to single cell data and subsequently increase the velocity of biomedical research.

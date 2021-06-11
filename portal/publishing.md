@@ -6,7 +6,9 @@ description: An explanation of publishing and data submission to the cellxgene d
 
 ### Data submission overview
 
-**NOTE:** We are currently alpha testing the publishing portal and are not accepting submissions publicly at this time. However, if you have a dataset and are interested in helping us test upload and other portal features feel free to reach out [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) so that we can discuss whether your dataset is something that we can accept at this time. We expect that dataset submission will be open in the future.
+{% hint style="info" %}
+We are currently alpha testing the publishing portal and are not accepting submissions publicly at this time. However, if you have a dataset and are interested in helping us test upload and other portal features feel free to reach out [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) so that we can discuss whether your dataset is something that we can accept at this time. We expect that dataset submission will be open in the future.
+{% endhint %}
 
 One of the main draws of the [cellxgene data portal](https://cellxgene.cziscience.com/) is a standardized data corpus that removes the friction of finding and reusing single cell datasets that are relevant to your research. Standardization of a single cell dataset occurs via the application of a standardized data schema which captures key metadata about the dataset and observations \(i.e. cells\) within the dataset. These metadata are used within our database to provide advanced searching of datasets at the cellular level.
 
