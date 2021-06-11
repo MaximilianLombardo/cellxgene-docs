@@ -6,7 +6,7 @@ Whether you need to visualize one thousand cells or one million, cellxgene helps
 
 [To install cellxgene](../install.md) you need Python 3.6+. We recommend installing cellxgene into a conda or virtual environment.
 
-Install the package.
+Install the package \(i.e. `pip install cellxgene`\).
 
 Launch cellxgene with an example [anndata](https://anndata.readthedocs.io/en/latest/) file
 
@@ -14,7 +14,7 @@ Launch cellxgene with an example [anndata](https://anndata.readthedocs.io/en/lat
 cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
 ```
 
-To explore more datasets already formatted for cellxgene, check out the [Demo data](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/demo-data) or see [Preparing your data](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/prepare) to learn more about formatting your own data for cellxgene.
+To explore more datasets already formatted for cellxgene, check out the [demo data](demo-data.md) or see [preparing your data](../data-reqs.md) to learn more about formatting your own data for cellxgene.
 
 ## Getting help
 
