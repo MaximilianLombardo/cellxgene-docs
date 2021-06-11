@@ -14,7 +14,7 @@ Cellxgene requires that data be represented in `AnnData` format. This page descr
 
 ### Metadata
 
-Categorical \(e.g., cluster labels\) and continuous \(e.g., pseudotime\) metadata are pulled from `anndata.obs`. Any column added here will be available for visualization in cellxgene. You can also [create new categorical annotations](https://github.com/chanzuckerberg/cellxgene/blob/main/docs/posts/annotations) within the application.
+Categorical \(e.g., cluster labels\) and continuous \(e.g., pseudotime\) metadata are pulled from `anndata.obs`. Any column added here will be available for visualization in cellxgene. You can also [create new categorical annotations](../explorer/feature-overview/desktop-features/annotations.md) within the application.
 
 ### Embeddings
 
@@ -24,7 +24,7 @@ cellxgene looks for embeddings \(e.g., tSNE, UMAP, PCA, spatial coordinates\) in
 
 If your data is in `h5ad` file \(from the [`anndata`](https://anndata.readthedocs.io/en/latest/index.html) library\) and meets the following requirements, you can go straight to `cellxgene launch`:
 
-* Expression values \(raw or normalized\) in `anndata.X`
+* Matrix data \(i.e. raw or normalized expression values\) in `anndata.X`
 * At least one embedding \(e.g., tSNE, UMAP\) in `anndata.obsm`, specified with the prefix `X_` \(e.g., by default scanpy stores UMAP coordinates in `anndata.obsm['X_umap']`\)
 * A unique identifier is required for each cell, which by default will be pulled from the `obs` DataFrame index. If the index is not unique or does not contain the cell ID, an alternative column can be specified with `--obs-names`
 * A unique identifier is required for each gene, which by default will be pulled from the `var` DataFrame index. If the index is not unique or does not contain the gene ID, an alternative column can be specified with `--var-names`
