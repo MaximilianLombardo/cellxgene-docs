@@ -29,7 +29,3 @@ Need familiarity with [IAM](https://aws.amazon.com/iam/) and [S3](https://aws.am
 
 {% embed url="https://github.com/chanzuckerberg/cellxgene/tree/main/backend/czi\_hosted/eb" %}
 
-~~~~
-
-
-
