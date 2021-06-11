@@ -24,15 +24,5 @@ If you have any further questions around data submission and requirements, feel 
 
 
 
-### Archive \(To Be deleted\)
-
-~~Link to single-cell curation repo~~
-
-~~link to curation tutorial~~
-
-Explain the concept of publishing on cellxgene \(need help from Ambrose? Is this sufficient\)
-
-
-
 ~~~~
 
