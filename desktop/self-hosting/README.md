@@ -6,15 +6,13 @@ description: Hosting Advice and Recipes
 
 ## Hosting cellxgene desktop on the web
 
-Cellxgene desktop is intended to be used by researchers on their local machines. However, we recognize that sharing and exploring data on the web is important. We're exploring how we could better support this in the future, and [would welcome your input](https://github.com/chanzuckerberg/cellxgene/issues/875)!
-
-Here are some examples of scenarios where self-hosting would be advantageous:
+Cellxgene desktop is intended to be used by researchers on their local machines and in scenarios where hosting on the web is essential for data sharing and dissemination, we strongly recommend to utilize the hosted explorer in the cellxgene data portal \(see [here for a more comprehensive definition of use cases](../../portal/hosted-intro.md) and [here for a rundown of hosted explorer features](../../explorer/feature-overview/universal-features.md)\). However, there are some scenarios where you may need to self-host the desktop version of cellxgene explorer. Here are some examples of scenarios where this type of self-hosting would be advantageous:
 
 * you need to share data with collaborators \(in a private or public manner\) and cannot submit your data to the portal because of controlled access to your data
 * you need access to features such as experimental re-embeddding or annotations \(which are not available in the hosted version of the system\)
-* You are still generating data and working to finalize your submission
+* You are still generating data \(or iterating through analyses\) and working to finalize your submission
 
-To help you consider a self-hosting path , you can check out examples of how other groups have approached this [below](./#live-examples-of-self-hosted-cellxgene-desktop). While we don't officially support web deployment, we've offered some guidance in the following sections on ways to deploy cellxgene to the web.
+To help you consider a self-hosting path, you can check out examples of how other groups have approached this [below](./#live-examples-of-self-hosted-cellxgene-desktop). While we don't officially support web deployment, we've offered some guidance in the following sections on ways to deploy cellxgene to the web.
 
 ### General notes and cautions
 
