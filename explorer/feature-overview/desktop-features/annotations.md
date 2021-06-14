@@ -51,7 +51,7 @@ cellxgene launch mydata.h5ad --annotations-file path/to/myfile.csv
 ```
 
 Any changes you make will be reflected in the original CSV. If the file does not exist, it will be created.  
- **Please note that this file will be overwritten, making this mode inappropriate for hosted / multi-user settings \(see below\).**
+**Please note that this file will be overwritten, making this mode inappropriate for hosted / multi-user settings \(see below\).**
 
 #### 3. Merging draft annotations with the main h5ad file
 
