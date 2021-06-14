@@ -101,7 +101,7 @@ Not to worry! We save the last 10 versions of your annotations in `annotations-d
 
 #### What about creating continuous annotations?
 
-Continuous metadata is important! However, these values \(e.g., pseudotime\) are the result of statistical analyses that are beyond cellxgene's visualization- and exploration-focused scope. We do, of course, provide visualization of continuous metadata values computed elsewhere and stored in `anndata.obs`.
+Continuous metadata is important! However, these values \(e.g., pseudotime\) are the result of statistical analyses that are beyond cellxgene's visualization and exploration focused scope. We do, of course, provide visualization of continuous metadata values computed elsewhere and stored in `anndata.obs`.
 
 #### I keep getting weird index errors when trying to join my annotations to my anndata?
 
@@ -113,5 +113,5 @@ We place a small cookie \(file\) in your browser that identifies where your draf
 
 #### I have feedback and ideas for you!
 
-Wonderful! This is a relatively new feature; we would _love_ to [hear your feedback](../../../contact.md) :\)
+Wonderful; we would _love_ to [hear your feedback](../../../contact.md) :\)
 
