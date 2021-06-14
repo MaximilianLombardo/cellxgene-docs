@@ -7,7 +7,7 @@ Cellxgene's desktop explorer and hosted explorer have a number of features which
 Categorical metadata can be used not only to color cells in the embedding scatterplot, but also to examine the representation of a particular metadata across other metadata fields. In the example below, check out how we can:
 
 1. Select all the cells that have the value "marrow" in the tissue category
-2. Subset these cells so that only they are displayed
+2. Subset these cells so that only the selection is displayed
 3. Expand another metadata category \("subtissue"\) to reveal how cells from the marrow are distributed across different sub-tissues
 
 ![](../../.gitbook/assets/crossfilter.gif)
