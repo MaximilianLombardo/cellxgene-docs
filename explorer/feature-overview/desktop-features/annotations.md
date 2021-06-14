@@ -95,7 +95,7 @@ For each user, annotations will be saved as follows:
 
 `cellxgene` autosaves any changes made to your annotations every 3 seconds.
 
-#### I think I deleted my annotations! Oh noes!
+#### I think I deleted my annotations! Can they be recovered?
 
 Not to worry! We save the last 10 versions of your annotations in `annotations-directory/NAME-backups/`
 
