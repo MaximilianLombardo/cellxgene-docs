@@ -23,7 +23,7 @@ You should get a terminal output which directs you to go to [http://localhost:50
 
 ![Expanded tool bar for computing re-embeddings](../../../.gitbook/assets/image%20%2811%29.png)
 
-Specifically, the re-embedding icon  \(![](../../../.gitbook/assets/image%20%2818%29.png)\) will allow you re-compute an embedding after a selection of cells has been made. The sequence of steps used to complete the workflow look like this:
+Specifically, the re-embedding icon  \(![](../../../.gitbook/assets/image%20%2818%29.png)\) will allow you to re-compute an embedding after a selection of cells has been made. The sequence of steps used to complete the workflow look like this:
 
 1. Make a selection of cells \(manual, categorical, or numeric selection\)
 2. After you have made your selection, click the subset cells icon \(![](../../../.gitbook/assets/image%20%2815%29.png)\)
