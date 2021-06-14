@@ -19,7 +19,7 @@ The feature for recomputing an embedding based on a selection of cells is hidden
 cellxgene launch pbmc3k.h5ad --experimental-enable-reembedding
 ```
 
-You should get a terminal output which directs you to go to [http://localhost:5005](http://localhost:5005) in your browser \(if you have specified another port via `--port,` the output will direct to a different port\). When enter the cellxgene explorer you should a typically cellxgene instance with an expanded tool bar:
+You should get a terminal output which directs you to go to [http://localhost:5005](http://localhost:5005) in your browser \(if you have specified another port via `--port,` the output will direct to a different port\). When enter the cellxgene explorer you should see a cellxgene instance with an expanded tool bar:
 
 ![Expanded tool bar for computing re-embeddings](../../../.gitbook/assets/image%20%2811%29.png)
 
