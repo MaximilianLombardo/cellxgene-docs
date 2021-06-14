@@ -18,7 +18,7 @@ Categorical \(e.g., cluster labels\) and continuous \(e.g., pseudotime\) metadat
 
 ### Embeddings
 
-cellxgene looks for embeddings \(e.g., tSNE, UMAP, PCA, spatial coordinates\) in `anndata.obsm`. These fields must follow the scanpy convention of starting with `X_`, e.g., `anndata.obsm['X_umap']`. If an embedding has more than two components, the first two will be used for visualization.
+Cellxgene looks for embeddings \(e.g., tSNE, UMAP, PCA, spatial coordinates\) in `anndata.obsm`. These fields must follow the scanpy convention of starting with `X_`, e.g., `anndata.obsm['X_umap']`. If an embedding has more than two components, the first two will be used for visualization.
 
 ## Data format requirements
 
