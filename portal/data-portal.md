@@ -8,10 +8,6 @@ description: A general overview of the portal and how to navigate it
 
 This section of the documentation aims to explain how the [cellxgene data portal](https://cellxgene.cziscience.com/) is organized and how to navigate it. When you first enter the data portal, you will be greeted by a collections page:
 
-{% hint style="info" %}
-
-{% endhint %}
-
 ![Cellxgene home page](../.gitbook/assets/image.png)
 
 {% hint style="info" %}
