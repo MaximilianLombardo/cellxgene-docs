@@ -8,9 +8,15 @@ description: A general overview of the portal and how to navigate it
 
 This section of the documentation aims to explain how the [cellxgene data portal](https://cellxgene.cziscience.com/) is organized and how to navigate it. When you first enter the data portal, you will be greeted by a collections page:
 
+{% hint style="info" %}
+
+{% endhint %}
+
 ![Cellxgene home page](../.gitbook/assets/image.png)
 
-**Note**: While in the future, it will be possible to seach and filter datasets that are in the data portal via a search and filter toolbar, the best way to find datasets from a particular author or tissue is to `CTRL + F` to find the matching text \(of your desired query\) on the page.
+{% hint style="info" %}
+**Note**: While in the future, it will be possible to seach and filter datasets that are in the data portal via a search and filter toolbar, the current best way to find datasets from a particular author or tissue is to `CTRL + F` to find the matching text \(of your desired query\) on the page.
+{% endhint %}
 
 Generally, submissions to the data portal are organized by the publication that they are associated \(we name these Collections\). Each collection is associated with one or more datasets \(typically those that were featured in the publication\). In the image above you can also see various collection level metadata such as tissue profiled, assay used, disease, organism, and cell count. You can view the datasets associated with a collection by clicking on a particular collection name:
 
