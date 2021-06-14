@@ -32,25 +32,7 @@ First, you'll need the following installed on your machine
 * python 3.6+
 * node and npm \(we recommend using [nvm](https://github.com/creationix/nvm) if this is your first time with node\)
 
-Then clone the project
-
-```text
-git clone https://github.com/chanzuckerberg/cellxgene.git
-```
-
-This is enough to get you started with editing documentation. If you'd like to contribute code:
-
-Build the client web assets from inside the `cellxgene` folder
-
-```text
-make build-for-server-dev
-```
-
-Install all requirements \(we recommend doing this inside a [virtual environment](https://docs.python.org/3/tutorial/venv.html)\)
-
-```text
-pip install -e .
-```
+Next you can build the client web assets and install all requirements by following the directions in our [dev docs](https://github.com/chanzuckerberg/cellxgene/blob/main/dev_docs/developer_guidelines.md#server-dev) on github.
 
 You can start the app while developing either by calling `cellxgene` or by calling `python -m server`. We recommend using the `--debug` flag to see more output, which you can include when reporting bugs.
 
@@ -71,4 +53,28 @@ Please submit any direct contributions via a Pull Request. It'd be great for PRs
 ### Contributing documentation
 
 This documentation is written using [gitbook](https://www.gitbook.com/). Feel free to [contact us](mailto:cellxgene@chanzuckerberg.com) if you would like to contribute documentation or suggest edits to our documentation.
+
+
+
+### Archive \(delete\)
+
+Then clone the project
+
+```text
+git clone https://github.com/chanzuckerberg/cellxgene.git
+```
+
+This is enough to get you started with editing documentation. If you'd like to contribute code:
+
+Build the client web assets from inside the `cellxgene` folder
+
+```text
+make build-for-server-dev
+```
+
+Install all requirements \(we recommend doing this inside a [virtual environment](https://docs.python.org/3/tutorial/venv.html)\)
+
+```text
+pip install -e .
+```
 

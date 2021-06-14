@@ -69,5 +69,5 @@ With respect to above Nginx config specification, one would start the browser us
 
 **Note regarding storage and memory on the EC2 instance \(if you implement using AWS\):**
 
-Since datasets will be loaded into the memory of your machine, ram costs could potentially be high, especially if you plan to host multiple large datasets. To avoid higher than necessary costs, you can store data on S3 and only pull the data onto the machine’s memory when the cellxgene explorer is launched. This should be compatible with the approach detailed above\(albeit by tweaking a config variable to point to where the data is located\).
+Since datasets will be loaded into the memory of your machine, ram costs could potentially be high, especially if you plan to host multiple large datasets. To avoid higher than necessary costs, you can store data on S3 and only pull the data onto the machine’s memory when the cellxgene explorer is launched. This should be compatible with the approach detailed above \(albeit by tweaking a config variable to point to where the data is located\).
 
