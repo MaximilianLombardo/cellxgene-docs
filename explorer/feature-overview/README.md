@@ -33,5 +33,5 @@ The cellxgene toolbar buttons provide the following functionalities:
 7. Undo
 8. Redo
 
-Now that we have established a sense of the functionality in our UI, let's go ahead and what types of operations can be performed with these tools.
+Now that we have established a sense of the functionality in our UI, let's go ahead and see what types of operations can be performed with these tools.
 
