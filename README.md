@@ -23,7 +23,7 @@ The **desktop explorer** serves a different set of use cases. Namely:
 
 *  Annotation and re-analysis of single cell datasets
 * Collaboration and iteration of analysis on a dataset
-* Setting up a self-hosted system for high sensitivity data
+* Setting up a private self-hosted system for high sensitivity data
 
 ### **Explorer Features**
 
