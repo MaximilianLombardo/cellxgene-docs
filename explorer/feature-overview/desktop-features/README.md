@@ -9,7 +9,7 @@ description: Desktop explorer's main unique features
 Cellxgene desktop explorer is differentiated from the hosted explorer by two significant features:
 
 * Re-computing the UMAP embedding based on a selection of cells
-* Collaborative annotation of cells type
+* Collaborative annotation of cell type
 
 ### Recompute Embedding
 
