@@ -2,7 +2,7 @@
 
 ## Creating annotations in cellxgene
 
-We have recently introduced a new feature in cellxgene that enables users to create and edit categorical annotations within the app. We'd love for you to try it out and give us[ ](../../../contact.md)[feedback](../../../contact.md)!
+The desktop version of explorer enables users to create and edit categorical annotations within the app.
 
 ## Data lifecycle for annotations
 
