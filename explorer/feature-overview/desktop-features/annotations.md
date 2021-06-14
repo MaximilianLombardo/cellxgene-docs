@@ -113,5 +113,5 @@ We place a small cookie \(file\) in your browser that identifies where your draf
 
 #### I have feedback and ideas for you!
 
-Wonderful; we would _love_ to [hear your feedback](../../../contact.md) :\)
+Wonderful! We would _love_ to [hear your feedback](../../../contact.md) :\)
 
