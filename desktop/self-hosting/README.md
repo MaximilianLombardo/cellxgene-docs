@@ -6,7 +6,7 @@ description: Hosting Advice and Recipes
 
 ## Hosting cellxgene desktop on the web
 
-Cellxgene desktop is intended to be used by researchers on their local machines and in scenarios where hosting on the web is essential for data sharing and dissemination, we strongly recommend to utilize the hosted explorer in the cellxgene data portal \(see [here for a more comprehensive definition of use cases](../../portal/hosted-intro.md) and [here for a rundown of hosted explorer features](../../explorer/feature-overview/universal-features.md)\). However, there are some scenarios where you may need to self-host the desktop version of cellxgene explorer. Here are some examples of scenarios where this type of self-hosting would be advantageous:
+Cellxgene desktop is intended to be used by researchers on their local machines. In scenarios where hosting on the web is essential for data sharing and dissemination, we strongly recommend to utilize the hosted explorer in the cellxgene data portal \(see [here for a more comprehensive definition of use cases](../../portal/hosted-intro.md) and [here for a rundown of hosted explorer features](../../explorer/feature-overview/universal-features.md)\). However, there are some scenarios where you may need to self-host the desktop version of cellxgene explorer. Here are some examples of scenarios where this type of setup would be advantageous:
 
 * you need to share data with collaborators \(in a private or public manner\) and cannot submit your data to the portal because of controlled access to your data
 * you need access to features such as experimental re-embeddding or annotations \(which are not available in the hosted version of the system\)
