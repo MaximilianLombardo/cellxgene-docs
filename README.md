@@ -4,7 +4,30 @@
 
 Cellxgene is a collection of computational tools enabling the exploration, analysis, and reuse of single cell data. The cellxgene ecosystem is currently composed of the [cellxgene data portal](https://cellxgene.cziscience.com/) \(which includes the hosted cellxgene explorer\) and the [cellxgene desktop explorer](https://github.com/chanzuckerberg/cellxgene). 
 
-The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup \(to find out more about one might like to do this, see our [documentation on self-hosting](desktop/self-hosting/)\). In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(ex: needing to make use of the [desktop only features](explorer/feature-overview/desktop-features/)\)  For further reference, here is a brief rundown of potential use cases and which member of the cellxgene product family they would best served by:
+![cellxgene explorer](.gitbook/assets/image%20%281%29.png)
+
+The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup \(to find out more about one might like to do this, see our [documentation on self-hosting](desktop/self-hosting/)\). In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(ex: needing to make use of the [desktop only features](explorer/feature-overview/desktop-features/)\) 
+
+![cellxgene data portal](.gitbook/assets/image%20%288%29.png)
+
+### Use Cases
+
+As a web based data platform, the **cellxgene data portal** and **hosted explorer** system serve the following use cases around data sharing and consumption:
+
+* Disseminating self-authored single cell publication data
+* Finding publicly available relevant single cell datasets and running comparisons between them
+* Quickly visualizing single cell publication data of other authors
+* Single cell data reuse \(i.e. integration or benchmarking\)
+
+The **desktop explorer** serves a different set of use cases. Namely;
+
+* Making use advanced annotation and re-analysis of single cell datasets
+* Collaboration and iteration of analysis on a dataset
+* Setting up a self-hosted system for high sensitivity data
+
+### **Explorer Features**
+
+To get a sense of the capabilities of the cellxgene explorer, here is a rundown of its features, along with the notable differences between the hosted and desktop versions. To learn more the cellxgene explorers, take a look at our [explorer documentation](explorer/feature-overview/).
 
 |  |                  Hosted |                  Desktop |
 | :--- | :--- | :--- |
@@ -17,8 +40,6 @@ The cellxgene data portal is a place where you can search and download publicly 
 | [Categorical metadata co-occurrence and within category continuous feature distributions](explorer/feature-overview/universal-features.md#see-how-metadata-and-gene-expression-break-down-across-different-categories) |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
 | [Recalculate embedding](explorer/feature-overview/desktop-features/#recompute-embedding) |                        - |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
 | [Custom annotations](explorer/feature-overview/desktop-features/annotations.md) |                        - |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-
-To learn more about how to achieve these tasks in cellxgene, take a look at our [explorer documentation](explorer/feature-overview/).
 
 ### Quick Links
 
@@ -34,22 +55,20 @@ Additionally, here are some important links for resources that exist outside of 
 * [cellxgene data portal](https://cellxgene.cziscience.com/)
 * [cellxgene github repo](https://github.com/chanzuckerberg/cellxgene)
 
-### ARCHIVE \(DELETE\)
+### ~~ARCHIVE \(DELETE\)~~
 
-To get a sense of the capabilities of the cellxgene explorer, here is a rundown of its features, along with the notable differences between the hosted and desktop versions:
-
-* Publishing single cell data
-  * **hosted**
-* Finding relevant single cell datasets and running comparisons between them
-  * **hosted**
-* Setting up a self-hosted system or making use of the [desktop only features](explorer/feature-overview/desktop-features/)
-  * **desktop**
-* Coloring by categorial meta \(i.e. cell type, batch, treatment group, donor origin...\) and continuous metadata \(i.e. gene expression, QC metadata, prediction scores...\)
-* Value clipping when coloring by continuous metadata \(when outliers distort the color scale\)
-* Cell selection based on categorical metadata, numeric selection based on continuous metadata via range selection, or manual selection via lasso tool.
-* Run differential expression between custom selections of groups of cells
-* Breakdown of specific categorical metadata fields \(i.e. tissue\) by any other categorical metadata field \(i.e. cell type\)
-* Embedding display and support for multiple embeddings \(umap, tSNE, PCA, pseudotime...\)
-* Recalculate embeddings: **Desktop Explorer Only**
-* Custom cell type annotations: **Desktop Explorer Only**
+* ~~Publishing single cell data~~
+  * ~~**hosted**~~
+* ~~Finding relevant single cell datasets and running comparisons between them~~
+  * ~~**hosted**~~
+* ~~Setting up a self-hosted system or making use of the~~ [~~desktop only features~~](explorer/feature-overview/desktop-features/)~~~~
+  * ~~**desktop**~~
+* ~~Coloring by categorial meta \(i.e. cell type, batch, treatment group, donor origin...\) and continuous metadata \(i.e. gene expression, QC metadata, prediction scores...\)~~
+* ~~Value clipping when coloring by continuous metadata \(when outliers distort the color scale\)~~
+* ~~Cell selection based on categorical metadata, numeric selection based on continuous metadata via range selection, or manual selection via lasso tool.~~
+* ~~Run differential expression between custom selections of groups of cells~~
+* ~~Breakdown of specific categorical metadata fields \(i.e. tissue\) by any other categorical metadata field \(i.e. cell type\)~~
+* ~~Embedding display and support for multiple embeddings \(umap, tSNE, PCA, pseudotime...\)~~
+* ~~Recalculate embeddings: **Desktop Explorer Only**~~
+* ~~Custom cell type annotations: **Desktop Explorer Only**~~
 
