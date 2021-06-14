@@ -54,25 +54,3 @@ Please submit any direct contributions via a Pull Request. It'd be great for PRs
 
 This documentation is written using [gitbook](https://www.gitbook.com/). Feel free to [contact us](mailto:cellxgene@chanzuckerberg.com) if you would like to contribute documentation or suggest edits to our documentation.
 
-### ~~Archive \(delete\)~~
-
-Then clone the project
-
-```text
-git clone https://github.com/chanzuckerberg/cellxgene.git
-```
-
-This is enough to get you started with editing documentation. If you'd like to contribute code:
-
-Build the client web assets from inside the `cellxgene` folder
-
-```text
-make build-for-server-dev
-```
-
-Install all requirements \(we recommend doing this inside a [virtual environment](https://docs.python.org/3/tutorial/venv.html)\)
-
-```text
-pip install -e .
-```
-
