@@ -24,6 +24,18 @@ To get a sense of the capabilities of the cellxgene explorer, here is a rundown 
 * Recalculate embeddings: **Desktop Explorer Only**
 * Custom cell type annotations: **Desktop Explorer Only**
 
+|  | Hosted | Desktop |
+| :--- | :--- | :--- |
+|  |                                                              |                                                              |
+| Display embeddings |               ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Color cells by categorical \(i.e. cell type\) and continuous metadata \(i.e. gene expression\) |               ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Clip outlier values when plotting  continuous data |               ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Select groups of cells via categorical and numeric metadata gates or manual  |               ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Run differential expression |               ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Categorical metadata co-occurrence and within category continuous feature distributions |               ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Recalculate embedding |                  - |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+| Custom annotations |                  - |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+
 To learn more about how to achieve these tasks in cellxgene, take a look at our [explorer documentation](explorer/feature-overview/).
 
 ### Quick Links
