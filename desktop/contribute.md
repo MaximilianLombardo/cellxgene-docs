@@ -54,9 +54,7 @@ Please submit any direct contributions via a Pull Request. It'd be great for PRs
 
 This documentation is written using [gitbook](https://www.gitbook.com/). Feel free to [contact us](mailto:cellxgene@chanzuckerberg.com) if you would like to contribute documentation or suggest edits to our documentation.
 
-
-
-### Archive \(delete\)
+### ~~Archive \(delete\)~~
 
 Then clone the project
 
