@@ -27,7 +27,7 @@ The **desktop explorer** serves a different set of use cases. Namely:
 
 ### **Explorer Features**
 
-To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more the cellxgene explorers, take a look at our [explorer documentation](explorer/feature-overview/).
+To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at our [explorer documentation](explorer/feature-overview/).
 
 |  |                  Hosted |                  Desktop |
 | :--- | :--- | :--- |
