@@ -55,20 +55,3 @@ Additionally, here are some important links for resources that exist outside of 
 * [cellxgene data portal](https://cellxgene.cziscience.com/)
 * [cellxgene github repo](https://github.com/chanzuckerberg/cellxgene)
 
-### ~~ARCHIVE \(DELETE\)~~
-
-* ~~Publishing single cell data~~
-  * ~~**hosted**~~
-* ~~Finding relevant single cell datasets and running comparisons between them~~
-  * ~~**hosted**~~
-* ~~Setting up a self-hosted system or making use of the~~ [~~desktop only features~~](explorer/feature-overview/desktop-features/)~~~~
-  * ~~**desktop**~~
-* ~~Coloring by categorial meta \(i.e. cell type, batch, treatment group, donor origin...\) and continuous metadata \(i.e. gene expression, QC metadata, prediction scores...\)~~
-* ~~Value clipping when coloring by continuous metadata \(when outliers distort the color scale\)~~
-* ~~Cell selection based on categorical metadata, numeric selection based on continuous metadata via range selection, or manual selection via lasso tool.~~
-* ~~Run differential expression between custom selections of groups of cells~~
-* ~~Breakdown of specific categorical metadata fields \(i.e. tissue\) by any other categorical metadata field \(i.e. cell type\)~~
-* ~~Embedding display and support for multiple embeddings \(umap, tSNE, PCA, pseudotime...\)~~
-* ~~Recalculate embeddings: **Desktop Explorer Only**~~
-* ~~Custom cell type annotations: **Desktop Explorer Only**~~
-
