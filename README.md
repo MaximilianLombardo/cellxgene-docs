@@ -19,7 +19,7 @@ As a web based data platform, the **cellxgene data portal** and **hosted explore
 * Quickly visualizing single cell publication data of other authors
 * Single cell data reuse \(i.e. integration or benchmarking\)
 
-The **desktop explorer** serves a different set of use cases. Namely;
+The **desktop explorer** serves a different set of use cases. Namely:
 
 *  Annotation and re-analysis of single cell datasets
 * Collaboration and iteration of analysis on a dataset
