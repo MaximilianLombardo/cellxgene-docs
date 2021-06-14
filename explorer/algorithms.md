@@ -14,6 +14,7 @@ Currently, we use a [Welch's _t_-test](https://en.wikipedia.org/wiki/Welch%27s_t
 
 To help avoid spurious results, we use the log fold change to filter genes, retaining those where `|log2( mean(set1) / mean(set2) )| > 0.01`; this threshold can be configured with the [`--diffexp-lfc-cutoff`](../desktop/launch.md) command. We then sort genes by their associated `|t value|` and return the top 15 genes.
 
-  
+{% hint style="info" %}
 **Note**: In the hosted explorer present on the cellxgene data portal, the differential expression feature has a limit of 50,000 cells \(i.e. the sum of the number of cells in group 1 and group 2 cannot exceed 50,000\). You can workaround this by only selecting subsamples of large clusters. We are currently working on ways to scale this calculation in the hosted setting.
+{% endhint %}
 
