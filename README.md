@@ -6,7 +6,7 @@ Cellxgene is a collection of computational tools enabling the exploration, analy
 
 ![cellxgene explorer](.gitbook/assets/image%20%281%29.png)
 
-The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup \(to find out more about one might like to do this, see our [documentation on self-hosting](desktop/self-hosting/)\). In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(ex: needing to make use of the [desktop only features](explorer/feature-overview/desktop-features/)\) 
+The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data. To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup \([documentation on self-hosting](desktop/self-hosting/)\). In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(see [use cases](./#use-cases) below\) 
 
 ![cellxgene data portal](.gitbook/assets/image%20%288%29.png)
 
@@ -21,13 +21,13 @@ As a web based data platform, the **cellxgene data portal** and **hosted explore
 
 The **desktop explorer** serves a different set of use cases. Namely;
 
-* Making use advanced annotation and re-analysis of single cell datasets
+*  Annotation and re-analysis of single cell datasets
 * Collaboration and iteration of analysis on a dataset
 * Setting up a self-hosted system for high sensitivity data
 
 ### **Explorer Features**
 
-To get a sense of the capabilities of the cellxgene explorer, here is a rundown of its features, along with the notable differences between the hosted and desktop versions. To learn more the cellxgene explorers, take a look at our [explorer documentation](explorer/feature-overview/).
+To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more the cellxgene explorers, take a look at our [explorer documentation](explorer/feature-overview/).
 
 |  |                  Hosted |                  Desktop |
 | :--- | :--- | :--- |
