@@ -29,7 +29,7 @@ Differential expression can be run between selections of two different groups of
 {% endhint %}
 
 {% hint style="info" %}
-**Note**: You can find more information [here](../algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broad differentially expressed markers that enable exploration \(computed on the fly\) and forego any assumptions that we could make about statistical precision. 
+**Note**: You can find more information [here](../algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broadly differentially expressed markers \(computed on the fly\) that enable exploration and forego any assumptions that we could make about statistical precision. 
 {% endhint %}
 
 ### See how metadata and gene expression break down across different categories
