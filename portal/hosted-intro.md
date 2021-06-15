@@ -1,6 +1,6 @@
 # Intro to Portal
 
-### About and use cases
+### Features & Functionality
 
 The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell publishing platform that is optimized for the access, exploration, and reuse of single cell data. In addition to providing a [standardized data corpus](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/corpora_schema.md), the cellxgene data portal serves the following use cases:
 

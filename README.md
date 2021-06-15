@@ -2,32 +2,32 @@
 
 ![](.gitbook/assets/cellxgene_logo.svg)
 
-Cellxgene is a collection of computational tools enabling the exploration, analysis, and reuse of single cell data. The cellxgene ecosystem is currently composed of the [cellxgene data portal](https://cellxgene.cziscience.com/) \(which includes the hosted cellxgene explorer\) and the [cellxgene desktop explorer](https://github.com/chanzuckerberg/cellxgene). 
+Cellxgene is a collection of software tools enabling the exploration, analysis, and reuse of single cell data. The cellxgene ecosystem is composed of the [cellxgene data portal](https://cellxgene.cziscience.com/) \(which includes the hosted cellxgene explorer\) and the [cellxgene desktop explorer](https://github.com/chanzuckerberg/cellxgene).
 
 ![cellxgene explorer](.gitbook/assets/image%20%281%29.png)
 
-The cellxgene data portal is a place where you can search and download publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data \(with the capability to handle datasets with millions of cells\). To serve use cases where it is not possible to submit your data to our portal, cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup \([documentation on self-hosting](desktop/self-hosting/)\). In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(see [use cases](./#use-cases) below\) 
+The cellxgene data portal enables publishing, search and download of publicly available single cell datasets. Each dataset that is hosted on the cellxgene data portal is accompanied by a hosted instance of the cellxgene explorer; enabling frictionless visualization, exploration, and basic analysis of single cell data \(with the capability to handle datasets with millions of cells\). Cellxgene is also available as a "desktop" explorer which can be used locally or in a self-hosted setup \([documentation on self-hosting](desktop/self-hosting/)\). In most cases, using the hosted explorer is preferred and sufficient. However, there are a select few scenarios where it may be preferable to use desktop explorer \(see [use cases](./#use-cases) below\)
 
 ![cellxgene data portal](.gitbook/assets/image%20%288%29.png)
 
 ### Use Cases
 
-As a web based data platform, the **cellxgene data portal** and **hosted explorer** system serve the following use cases around data sharing and consumption:
+As a web based data platform, the **cellxgene data portal** and **hosted explorer** system serve the following data sharing and consumption use cases:
 
 * Disseminating self-authored single cell publication data
 * Finding publicly available relevant single cell datasets and running comparisons between them
 * Quickly visualizing single cell publication data of other authors
-* Single cell data reuse \(i.e. integration or benchmarking\)
+* Downloading and reusing single cell data \(i.e. for integrative analysis or benchmarking\)
 
-The **desktop explorer** serves a different set of use cases. Namely:
+The **desktop explorer** serves a different set of use cases:
 
-*  Annotation and re-analysis of single cell datasets
-* Collaboration and iteration of analysis on a dataset
-* Setting up a closed self-hosted system for high sensitivity data
+* Annotation and re-analysis of single cell datasets
+* Collaborative analysis of a dataset
+* Setting up a closed self-hosted system for private data
 
 ### **Explorer Features**
 
-To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at our [explorer documentation](explorer/feature-overview/).
+To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at the [explorer documentation](explorer/feature-overview/).
 
 |  |                  Hosted |                  Desktop |
 | :--- | :--- | :--- |
@@ -45,10 +45,10 @@ To get a sense of the capabilities of the cellxgene explorers, here is a rundown
 
 If you are ready and raring to see what cellxgene is capable of, you can:
 
-* jump right into a [hosted cellxgene explorer instance](https://cellxgene.cziscience.com/e/human_cell_landscape.cxg/) and start exploring
-* find out more about the cellxgene data portal and data contribution in the [corresponding section](portal/hosted-intro.md) of this documentation
-* read about how to use the cellxgene explorer via the [explorer documentation](explorer/feature-overview/)
-* or if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md).
+* Jump right into a [hosted cellxgene explorer instance](https://cellxgene.cziscience.com/e/human_cell_landscape.cxg/) and start exploring
+* Find out more about the cellxgene data portal and data contribution in the [corresponding section](portal/hosted-intro.md) of this documentation
+* Read about how to use the cellxgene explorer via the [explorer documentation](explorer/feature-overview/)
+* Or if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md)
 
 Additionally, here are some important links for resources that exist outside of this documentation site:
 
