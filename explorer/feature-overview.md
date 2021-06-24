@@ -24,8 +24,8 @@ Important icons and functionalities in cellxgene's user interface are displayed 
 
 The cellxgene toolbar buttons provide the following functionalities:
 
-1. Subsets the cells based on current selection \(based on categorical, numerical, or manual\). Only active when a selection is active.
-2. Get the complete set of cells. Only active when a subset is currently active.
+1. Subsets the cells based on current selection \(based on categorical, numerical, or manual\). Only active when a selection is active
+2. Get the complete set of cells. Only active when a subset is currently active
 3. Lasso selection of cells on the plot \(manual selection\)
 4. Zoom and move embedding plot
 5. When the cells are colored by a categorical metadata field, this button allows the display of values of in that field displayed over the appropriate group of cells \(i.e. when coloring by "cell type", cell type names are displayed over the medoid of the cluster\)

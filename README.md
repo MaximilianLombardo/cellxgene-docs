@@ -54,6 +54,6 @@ If you are ready and raring to see what cellxgene is capable of, you can:
 
 Additionally, here are some important links for resources that exist outside of this documentation site:
 
-* [cellxgene data portal](https://cellxgene.cziscience.com/)
-* [cellxgene github repo](https://github.com/chanzuckerberg/cellxgene)
+* [Cellxgene data portal](https://cellxgene.cziscience.com/)
+* [Cellxgene github repo](https://github.com/chanzuckerberg/cellxgene)
 

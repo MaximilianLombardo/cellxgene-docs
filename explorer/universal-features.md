@@ -36,8 +36,8 @@ Differential expression can be run between selections of two different groups of
 
 Cellxgene can give you information on how different categorical and continuous metadata are distributed within any metadata field on the left-hand sidebar. To accomplish this, one simply needs to:
 
-1. Color the cells by a desired categorical or continuous metadata field.
-2. Expand another categorical metadata field to examine either the cross-occupancy \(categorical metadata\) or distribution \(continuous metadata\) within that newly expanded field.
+1. Color the cells by a desired categorical or continuous metadata field
+2. Expand another categorical metadata field to examine either the cross-occupancy \(categorical metadata\) or distribution \(continuous metadata\) within that newly expanded field
 
 ![](../.gitbook/assets/category-breakdown.gif)
 
