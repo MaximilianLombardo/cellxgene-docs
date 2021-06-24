@@ -27,7 +27,7 @@ The **desktop explorer** serves a different set of use cases:
 
 ## **Explorer Features**
 
-To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at the [explorer documentation](explorer/feature-overview.md).
+To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at the [explorer documentation](explorer/feature-overview.md). 
 
 |  | Hosted | Desktop |
 | :--- | :--- | :--- |
@@ -40,6 +40,8 @@ To get a sense of the capabilities of the cellxgene explorers, here is a rundown
 | [Categorical metadata co-occurrence and within category continuous feature distributions](explorer/universal-features.md#see-how-metadata-and-gene-expression-break-down-across-different-categories) | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
 | [Recalculate embedding](explorer/desktop-features/#recompute-embedding) | - | ![](.gitbook/assets/google_material_design_check.svg.png) |
 | [Custom annotations](explorer/desktop-features/annotations.md) | - | ![](.gitbook/assets/google_material_design_check.svg.png) |
+
+What is not listed in this table is the ease of deployment of the hosted explorer vs. the desktop explorer. With cellxgene's hosted explorer, access to a single cell dataset is literally just a click away. Cellxgene desktop explorer requires more complex installation and potentially configuration in the case of self-hosting
 
 ## Quick Links
 
