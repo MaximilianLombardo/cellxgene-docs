@@ -1,9 +1,5 @@
 # Intro to Desktop Explorer
 
-{% hint style="info" %}
-Cellxgene desktop explorer will be maintained, but no longer actively developed by the cellxgene team
-{% endhint %}
-
 Cellxgene desktop explorer is a tool in the cellxgene suite that should be used for basic analysis and exploration of your data. The use cases that are covered in this category are:
 
 * When you need to work with other team members to make **collaborative annotations** of your dataset

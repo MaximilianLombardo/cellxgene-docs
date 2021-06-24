@@ -4,21 +4,21 @@
 
 ## Portal
 
-* [Intro to Portal](portal/hosted-intro.md)
+* [Introduction](portal/hosted-intro.md)
 * [Data Portal](portal/data-portal.md)
 * [Publishing and Data Submission](portal/publishing.md)
 
 ## Explorer
 
-* [Feature Intro and UI](explorer/feature-overview/README.md)
-  * [Universal Features](explorer/feature-overview/universal-features.md)
-  * [Desktop Features](explorer/feature-overview/desktop-features/README.md)
-    * [Annotations](explorer/feature-overview/desktop-features/annotations.md)
+* [Introduction](explorer/feature-overview/README.md)
+* [Universal Features](explorer/feature-overview/universal-features.md)
+* [Desktop Features](explorer/feature-overview/desktop-features/README.md)
+  * [Annotations](explorer/feature-overview/desktop-features/annotations.md)
 * [Algorithms](explorer/algorithms.md)
 
 ## Desktop
 
-* [Intro to Desktop Explorer](desktop/desktop-intro.md)
+* [Introduction](desktop/desktop-intro.md)
 * [Quick Start](desktop/quick-start/README.md)
   * [Demo data](desktop/quick-start/demo-data.md)
 * [Install](desktop/install.md)
