@@ -14,7 +14,7 @@ Values from the data matrix to be visualized \(i.e. normalized gene expression v
 
 ### Metadata
 
-Categorical \(e.g., cluster labels\) and continuous \(e.g., pseudotime\) metadata are pulled from `anndata.obs`. Any column added here will be available for visualization in cellxgene. You can also [create new categorical annotations](../explorer/feature-overview/desktop-features/annotations.md) within the application.
+Categorical \(e.g., cluster labels\) and continuous \(e.g., pseudotime\) metadata are pulled from `anndata.obs`. Any column added here will be available for visualization in cellxgene. You can also [create new categorical annotations](../explorer/desktop-features/annotations.md) within the application.
 
 ### Embeddings
 

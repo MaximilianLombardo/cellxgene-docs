@@ -10,7 +10,7 @@ The cellxgene data portal enables publishing, search and download of publicly av
 
 ![cellxgene data portal](.gitbook/assets/image%20%288%29.png)
 
-### Use Cases
+## Use Cases
 
 As a web based data platform, the **cellxgene data portal** and **hosted explorer** system serve the following data sharing and consumption use cases:
 
@@ -25,29 +25,29 @@ The **desktop explorer** serves a different set of use cases:
 * Collaborative analysis of a dataset
 * Setting up a closed self-hosted system for private data
 
-### **Explorer Features**
+## **Explorer Features**
 
-To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at the [explorer documentation](explorer/feature-overview/).
+To get a sense of the capabilities of the cellxgene explorers, here is a rundown of their features, along with the notable differences between the hosted and desktop versions. To learn more about the cellxgene explorers, take a look at the [explorer documentation](explorer/feature-overview.md).
 
-|  |                  Hosted |                  Desktop |
+|  | Hosted | Desktop |
 | :--- | :--- | :--- |
-|  |                                                              |                                                              |
-| Display embeddings |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| [Color cells by categorical \(i.e. cell type\) and continuous metadata \(i.e. gene expression\)](explorer/feature-overview/universal-features.md#find-cells-where-a-gene-is-expressed) |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| Clip outlier values when plotting  continuous data |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| Select groups of cells via categorical and numeric metadata gates or manual lasso selection |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| [Run differential expression](explorer/feature-overview/universal-features.md#compare-groups-of-cells-with-differential-expression) |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| [Categorical metadata co-occurrence and within category continuous feature distributions](explorer/feature-overview/universal-features.md#see-how-metadata-and-gene-expression-break-down-across-different-categories) |                     ![](.gitbook/assets/google_material_design_check.svg.png)  |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| [Recalculate embedding](explorer/feature-overview/desktop-features/#recompute-embedding) |                        - |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
-| [Custom annotations](explorer/feature-overview/desktop-features/annotations.md) |                        - |                       ![](.gitbook/assets/google_material_design_check.svg.png)  |
+|  |  |  |
+| Display embeddings | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| [Color cells by categorical \(i.e. cell type\) and continuous metadata \(i.e. gene expression\)](explorer/universal-features.md#find-cells-where-a-gene-is-expressed) | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| Clip outlier values when plotting  continuous data | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| Select groups of cells via categorical and numeric metadata gates or manual lasso selection | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| [Run differential expression](explorer/universal-features.md#compare-groups-of-cells-with-differential-expression) | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| [Categorical metadata co-occurrence and within category continuous feature distributions](explorer/universal-features.md#see-how-metadata-and-gene-expression-break-down-across-different-categories) | ![](.gitbook/assets/google_material_design_check.svg.png) | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| [Recalculate embedding](explorer/desktop-features/#recompute-embedding) | - | ![](.gitbook/assets/google_material_design_check.svg.png) |
+| [Custom annotations](explorer/desktop-features/annotations.md) | - | ![](.gitbook/assets/google_material_design_check.svg.png) |
 
-### Quick Links
+## Quick Links
 
 If you are ready and raring to see what cellxgene is capable of, you can:
 
 * Jump right into a [hosted cellxgene explorer instance](https://cellxgene.cziscience.com/e/human_cell_landscape.cxg/) and start exploring
 * Find out more about the cellxgene data portal and data contribution in the [corresponding section](portal/hosted-intro.md) of this documentation
-* Read about how to use the cellxgene explorer via the [explorer documentation](explorer/feature-overview/)
+* Read about how to use the cellxgene explorer via the [explorer documentation](explorer/feature-overview.md)
 * Or if your use case demands it, you can check out information that is relevant to using [cellxgene desktop](desktop/desktop-intro.md)
 
 Additionally, here are some important links for resources that exist outside of this documentation site:

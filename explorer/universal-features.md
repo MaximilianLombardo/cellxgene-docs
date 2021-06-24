@@ -10,7 +10,7 @@ Categorical metadata can be used not only to color cells in the embedding scatte
 2. Subset these cells so that only the selection is displayed
 3. Expand another metadata category \("subtissue"\) to reveal how cells from the marrow are distributed across different sub-tissues
 
-![](../../.gitbook/assets/crossfilter.gif)
+![](../.gitbook/assets/crossfilter.gif)
 
 ### Compare groups of cells with differential expression
 
@@ -18,10 +18,10 @@ Differential expression can be run between selections of two different groups of
 
 1. Select cells for the first group \("B Cells"\)
 2. Select cells for the second group \("granulocytes"\)
-3. Click the differential expression icon \( ![](../../.gitbook/assets/image%20%282%29.png) \)
+3. Click the differential expression icon \( ![](../.gitbook/assets/image%20%282%29.png) \)
 4. The top 10 differentially expressed features will appear on the right hand side-bar
 
-![](../../.gitbook/assets/diffexp.gif)
+![](../.gitbook/assets/diffexp.gif)
 
 {% hint style="info" %}
   
@@ -29,7 +29,7 @@ Differential expression can be run between selections of two different groups of
 {% endhint %}
 
 {% hint style="info" %}
-**Note**: You can find more information [here](../algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broadly differentially expressed markers \(computed on the fly\) that enable exploration and forego any assumptions that we could make about statistical precision. 
+**Note**: You can find more information [here](algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broadly differentially expressed markers \(computed on the fly\) that enable exploration and forego any assumptions that we could make about statistical precision. 
 {% endhint %}
 
 ### See how metadata and gene expression break down across different categories
@@ -39,7 +39,7 @@ Cellxgene can give you information on how different categorical and continuous m
 1. Color the cells by a desired categorical or continuous metadata field.
 2. Expand another categorical metadata field to examine either the cross-occupancy \(categorical metadata\) or distribution \(continuous metadata\) within that newly expanded field.
 
-![](../../.gitbook/assets/category-breakdown.gif)
+![](../.gitbook/assets/category-breakdown.gif)
 
 One could imagine using this feature in a scenario where it is expected that certain cell types are only present in a particular disease state for instance.
 
@@ -51,7 +51,7 @@ Cellxgene provides functionality to select cells based on gene expression \(i.e.
 2. Color by the gene which you would like to gate by
 3. Brush over the histogram of gene expression in the right hand side bar to set the minimum and maximum thresholds for gene expression
 
-![](../../.gitbook/assets/gene-expression.gif)
+![](../.gitbook/assets/gene-expression.gif)
 
 ### Compare expression of multiple genes
 
@@ -60,7 +60,7 @@ Cellxgene, allows for the display of bi-variate scatter plots which results in F
 1. Select a gene to plot on the X axis
 2. Select a gene to plot on the Y axis
 
-![](../../.gitbook/assets/compare-genes.gif)
+![](../.gitbook/assets/compare-genes.gif)
 
 You can also also color by one of these genes to view expression in either the embedding plot of the bi-variate scatter plot. Additionally, you can still make manual selections on the embedding plot, while the bi-variate plot is active \(in the example above, we select a particular cluster where we want to view the expression relationship between the first gene and the second gene\)
 

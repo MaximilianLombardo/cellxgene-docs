@@ -8,7 +8,7 @@ description: A general overview of the portal and how to navigate it
 
 This section of the documentation aims to explain how the [cellxgene data portal](https://cellxgene.cziscience.com/) is organized and how to navigate it. When you first enter the data portal, you will be greeted by a collections page:
 
-![Cellxgene home page](../.gitbook/assets/image.png)
+![Cellxgene home page](../.gitbook/assets/image%20%288%29.png)
 
 {% hint style="info" %}
 **Note**: While in the future, it will be possible to seach and filter datasets that are in the data portal via a search and filter toolbar, the current best way to find datasets from a particular author or tissue is to `CTRL + F` to find the matching text \(of your desired query\) on the page.
@@ -36,5 +36,5 @@ By clicking the cellxgene explorer icon \(![](../.gitbook/assets/image%20%287%29
 
 ![Cells of the adult human heart \(All\): https://doi.org/10.1038/s41586-020-2797-4](../.gitbook/assets/image%20%281%29.png)
 
-Once you are in "explorer" mode, you will be able to color the cells by various metadata, perform complex cell selection, and more! To read about the various explorations and analyses that you can do in the cellxgene explorer, please refer to the [explorer section of this documentation](../explorer/feature-overview/).
+Once you are in "explorer" mode, you will be able to color the cells by various metadata, perform complex cell selection, and more! To read about the various explorations and analyses that you can do in the cellxgene explorer, please refer to the [explorer section of this documentation](../explorer/feature-overview.md).
 

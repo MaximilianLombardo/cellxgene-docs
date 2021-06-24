@@ -10,10 +10,10 @@
 
 ## Explorer
 
-* [Introduction](explorer/feature-overview/README.md)
-* [Universal Features](explorer/feature-overview/universal-features.md)
-* [Desktop Features](explorer/feature-overview/desktop-features/README.md)
-  * [Annotations](explorer/feature-overview/desktop-features/annotations.md)
+* [Introduction](explorer/feature-overview.md)
+* [Universal Features](explorer/universal-features.md)
+* [Desktop Features](explorer/desktop-features/README.md)
+  * [Annotations](explorer/desktop-features/annotations.md)
 * [Algorithms](explorer/algorithms.md)
 
 ## Desktop

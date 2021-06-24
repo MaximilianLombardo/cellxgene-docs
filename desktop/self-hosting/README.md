@@ -6,7 +6,7 @@ description: Hosting Advice and Recipes
 
 ## Hosting cellxgene desktop on the web
 
-Cellxgene desktop is intended to be used by researchers on their local machines. In scenarios where hosting on the web is essential for data sharing and dissemination, we strongly recommend to utilize the hosted explorer in the cellxgene data portal \(see [here for a more comprehensive definition of use cases](../../portal/hosted-intro.md) and [here for a rundown of hosted explorer features](../../explorer/feature-overview/universal-features.md)\). However, there are some scenarios where you may need to self-host the desktop version of cellxgene explorer. Here are some examples of scenarios where this type of setup would be advantageous:
+Cellxgene desktop is intended to be used by researchers on their local machines. In scenarios where hosting on the web is essential for data sharing and dissemination, we strongly recommend to utilize the hosted explorer in the cellxgene data portal \(see [here for a more comprehensive definition of use cases](../../portal/hosted-intro.md) and [here for a rundown of hosted explorer features](../../explorer/universal-features.md)\). However, there are some scenarios where you may need to self-host the desktop version of cellxgene explorer. Here are some examples of scenarios where this type of setup would be advantageous:
 
 * you need to share data with collaborators \(in a private or public manner\) and cannot submit your data to the portal because of controlled access to your data
 * you need access to features such as experimental re-embeddding or annotations \(which are not available in the hosted version of the system\)
@@ -35,7 +35,7 @@ The following configuration options require special consideration in any multi-u
 
 `--disable-annotations`: annotations, which is enabled by default, may not be appropriate for hosted environments. It will write to the local file system, and in extreme cases could be used to abuse \(or exceed\) file system capacity on the hosting server. We recommend disabling this with this flag.
 
-`--annotations-file`: this specifies a single file for all end-user annotations, and is incompatible with hosted or multi-user use of cellxgene. Using it will cause loss of user annotation data \(ie, the CSV file will be overwritten\). If you wish to explore using the annotations feature in a multi-user environment, please refer to the [annotations documentation](../../explorer/feature-overview/desktop-features/annotations.md), and in particular the `--annotations-dir` flag.
+`--annotations-file`: this specifies a single file for all end-user annotations, and is incompatible with hosted or multi-user use of cellxgene. Using it will cause loss of user annotation data \(ie, the CSV file will be overwritten\). If you wish to explore using the annotations feature in a multi-user environment, please refer to the [annotations documentation](../../explorer/desktop-features/annotations.md), and in particular the `--annotations-dir` flag.
 
 ### Community software projects
 
