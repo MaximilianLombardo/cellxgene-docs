@@ -9,8 +9,8 @@ Cellxgene enables scientists to annotate, publish, find, download, explore and a
 
 | Task                              | Quick Start | Application |
 |-----------------------------------|-------------|-------------|
-| Analyze & Annotate Private Data   | [Install cellxgene](desktop/install.md)<br />[Download an example dataset](portal/data-portal.md#download)<br />Learn how to [analyze](explorer/features/universal-features.md) and [annotate](explorer/features/desktop-features/annotations.md) | cellxgene Desktop |
-| Share & Analyze Private Datasets  | Learn how to [host cellxgene Desktop Explorer](desktop/self-hosting)| cellxgene Desktop |
+| Analyze & Annotate Private Data   | [Install cellxgene](desktop/install.md)<br />[Download an example dataset](portal/data-portal.md#download)<br />Learn how to [analyze](explorer/features/universal-features.md) and [annotate](explorer/features/desktop-features/annotations.md) | Cellxgene Desktop |
+| Share & Analyze Private Datasets  | Learn how to [host cellxgene Desktop Explorer](desktop/self-hosting)| Cellxgene Desktop |
 | Publish Datasets                  | In pre-alpha testing.<br />Contact [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) to learn more | Data Portal |
 | Find Public Datasets              | [Finding data](portal/data-portal.md) | Data Portal |
 | Download Datasets                 | [Downloading data](portal/data-portal.md#download) | Data Portal |
