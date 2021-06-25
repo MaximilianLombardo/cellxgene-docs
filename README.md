@@ -6,7 +6,7 @@ cellxgene provides two applications, the Data Portal ([site](https://cellxgene.c
 
 | Task                              | Quick Start | Application |
 |-----------------------------------|-------------|-------------|
-| Analyze & Annotate Private Data   | [Install cellxgene](desktop/install.md)<br />[Download an example dataset](portal/data-portal.md#download)<br />Read about [analysis](explorer/features/universal-features.md) and [annotation](explorer/features/desktop-features/annotations.md) | Desktop Explorer |
+| Analyze & Annotate Private Data   | [Install cellxgene](desktop/install.md)<br />[Download an example dataset](portal/data-portal.md#download)<br />Learn how to [analyze](explorer/features/universal-features.md) and [annotate](explorer/features/desktop-features/annotations.md) | Desktop Explorer |
 | Share & Analyze Private Datasets  | Learn how to [host cellxgene Desktop Explorer](desktop/self-hosting)| Desktop Explorer |
 | Publish Datasets                  | In pre-alpha testing. Contact [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) to learn more | Data Portal |
 | Find Public Datasets              | [Finding data](portal/data-portal.md) | Data Portal |
