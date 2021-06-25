@@ -21,6 +21,6 @@ The cellxgene documentation has five major sections:
 |------------------|---------|
 | Desktop Explorer | How to prepare data and install or host the Desktop Explorer |
 | Data Portal      | How to use the Data Portal |
-| Data Exploration | The Data Portal and Desktop Explorer have similar UIs and features.<br />Describes how to explore data. |
+| Data Exploration | The Data Portal and Desktop Explorer have similar UIs and features; Describes how to explore data. |
 | Contribution     | How to contribute to the cellxgene project |
 | Contact          | How to get in touch with the cellxgene team to give us feedback or make feature requests |
