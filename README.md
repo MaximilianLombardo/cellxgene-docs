@@ -2,9 +2,7 @@
 
 ![](.gitbook/assets/image%20%281%29.png)
 
-## Using cellxgene
-
-cellxgene provides two applications, the Data Portal ([site](https://cellxgene.cziscience.com/), [docs](portal/hosted-intro.md)), and the Desktop Explorer ([site](https://github.com/chanzuckerberg/cellxgene), [docs](explorer/explorer-intro.md)), which collectively enable scientists to annotate, publish, find, download, explore and analyze single cell datasets:
+cellxgene provides two applications, the Data Portal ([site](https://cellxgene.cziscience.com/), [docs](portal/hosted-intro.md)), and the Desktop Explorer ([site](https://github.com/chanzuckerberg/cellxgene), [docs](explorer/explorer-intro.md)), which collectively enable scientists to annotate, publish, find, download, explore and analyze single cell datasets.
 
 | Task                              | Quick Start | Application |
 |-----------------------------------|-------------|-------------|
