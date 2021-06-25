@@ -8,7 +8,7 @@ Cellxgene provides two applications, the Data Portal ([site](https://cellxgene.c
 |-----------------------------------|-------------|-------------|
 | Analyze & Annotate Private Data   | [Install cellxgene](desktop/install.md)<br />[Download an example dataset](portal/data-portal.md#download)<br />Learn how to [analyze](explorer/features/universal-features.md) and [annotate](explorer/features/desktop-features/annotations.md) | Desktop Explorer |
 | Share & Analyze Private Datasets  | Learn how to [host cellxgene Desktop Explorer](desktop/self-hosting)| Desktop Explorer |
-| Publish Datasets                  | In pre-alpha testing. Contact [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) to learn more | Data Portal |
+| Publish Datasets                  | In pre-alpha testing.<br />Contact [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) to learn more | Data Portal |
 | Find Public Datasets              | [Finding data](portal/data-portal.md) | Data Portal |
 | Download Datasets                 | [Downloading data](portal/data-portal.md#download) | Data Portal |
 | Explore & Analyze Public Datasets | [Exploring data](explorer/features) | Data Portal |
@@ -19,8 +19,8 @@ The cellxgene documentation has five major sections:
 
 | Section          | Purpose |
 |------------------|---------|
-| Desktop Explorer | Describes how to prepare data and use the Desktop Explorer |
+| Desktop Explorer | How to prepare data and install or host the Desktop Explorer |
 | Data Portal      | How to use the Data Portal |
-| Data Exploration | The Data Portal and Desktop Explorer have similar UIs and features - this section describes how to explore data. |
+| Data Exploration | The Data Portal and Desktop Explorer have similar UIs and features<br />How to explore data. |
 | Contribution     | How to contribute to the cellxgene project |
 | Contact          | How to get in touch with the cellxgene team to give us feedback or make feature requests |
