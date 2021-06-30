@@ -18,12 +18,13 @@ Cellxgene enables scientists to annotate, publish, find, download, explore and a
 
 ## Learn more
 
-The cellxgene documentation has five major sections:
+The cellxgene documentation has six major sections:
 
-| Section           | Purpose |
-|-------------------|---------|
-| Cellxgene Desktop | How to prepare data and install or host the Cellxgene Desktop |
-| Data Portal       | How to use the Data Portal |
-| Data Exploration  | The Data Portal and Cellxgene Desktop have similar UIs and features; Describes how to explore data. |
-| Contribution      | How to contribute to the cellxgene project |
-| Contact           | How to get in touch with the cellxgene team to give us feedback or make feature requests |
+| Section              | Purpose |
+|----------------------|---------|
+| Cellxgene Desktop    | How to prepare data and install or host the Cellxgene Desktop |
+| Data Portal          | How to use the Data Portal |
+| Data Exploration     | The Data Portal and Cellxgene Desktop have similar UIs and features; This section describes how to use both tools to explore data. |
+| Contribution         | How to contribute to the cellxgene project |
+| Community Extensions | Cellxgene is MIT licensed, and free to reuse. See how our user community has extended cellxgene |
+| Contact              | How to get in touch with the cellxgene team to give us feedback or make feature requests |
