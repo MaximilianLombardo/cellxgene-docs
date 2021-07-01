@@ -36,5 +36,5 @@ By clicking the cellxgene explorer icon \(![](../.gitbook/assets/image%20%287%29
 
 ![Cells of the adult human heart \(All\): https://doi.org/10.1038/s41586-020-2797-4](../.gitbook/assets/image%20%281%29.png)
 
-Once you are in "explorer" mode, you will be able to color the cells by various metadata, perform complex cell selection, and more! To read about the various explorations and analyses that you can do in the cellxgene explorer, please refer to the [explorer section of this documentation](../explorer/feature-overview.md).
+Once you are in "explorer" mode, you will be able to color the cells by various metadata, perform complex cell selection, and more! To read about the various explorations and analyses that you can do in the cellxgene explorer, please refer to the [explorer section of this documentation](../explorer/the-exploration-interface.md).
 

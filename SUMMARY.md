@@ -13,8 +13,8 @@
 ## Cellxgene Desktop <a id="desktop"></a>
 
 * [Overview](desktop/desktop-intro.md)
-* [Quick Start](desktop/quick-start/README.md)
-* [Demo data](desktop/quick-start/demo-data.md)
+* [Quick Start](desktop/quick-start.md)
+* [Demo data](desktop/demo-data.md)
 * [Install](desktop/install.md)
 * [Data Format Requirements](desktop/data-reqs.md)
 * [Prepare](desktop/prepare.md)
@@ -24,17 +24,17 @@
   * [Cellxgene Gateway/Apache2 Reverse Proxy with Authentication](desktop/self-hosting/cellxgene-gateway-proxy.md)
   * [AWS Elastic Bean Stalk](desktop/self-hosting/elastic-bean-stalk.md)
   * [Heroku](desktop/self-hosting/heroku.md)
-* [Contribute](desktop/contribute.md)
 
 ## Exploring Data <a id="explorer"></a>
 
-* [The Exploration Interface](explorer/feature-overview.md)
+* [The Exploration Interface](explorer/the-exploration-interface.md)
 * [Universal Features](explorer/universal-features.md)
 * [Annotations (Desktop Only)](explorer/annotations.md)
 * [Algorithms](explorer/algorithms.md)
 
 ---
 
+* [Contribute](contribute.md)
 * [Third Party Extensions](third-party-extensions.md)
 * [Code](code.md)
 * [Contact](contact.md)
