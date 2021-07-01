@@ -14,7 +14,7 @@
 
 * [Overview](desktop/desktop-intro.md)
 * [Quick Start](desktop/quick-start/README.md)
-  * [Demo data](desktop/quick-start/demo-data.md)
+* [Demo data](desktop/quick-start/demo-data.md)
 * [Install](desktop/install.md)
 * [Data Format Requirements](desktop/data-reqs.md)
 * [Prepare](desktop/prepare.md)
@@ -30,8 +30,7 @@
 
 * [The Exploration Interface](explorer/feature-overview.md)
 * [Universal Features](explorer/universal-features.md)
-* [Desktop Features](explorer/desktop-features/README.md)
-  * [Annotations](explorer/desktop-features/annotations.md)
+* [Annotations (Desktop Only)](explorer/annotations.md)
 * [Algorithms](explorer/algorithms.md)
 
 ---
