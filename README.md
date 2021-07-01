@@ -4,7 +4,7 @@
 
 Cellxgene enables scientists to annotate, publish, find, download, explore and analyze single cell datasets. Cellxgene has two offerings:
 
-* The **Data Portal** \([site](https://cellxgene.cziscience.com/), [docs](portal/data-portal-overview.md)\) - a SaaS platform to publish, find, download, and explore single cell data.
+* The **Data Portal** \([site](https://cellxgene.cziscience.com/), [docs]()\) - a SaaS platform to publish, find, download, and explore single cell data.
 * **Cellxgene Desktop** \([site](https://github.com/chanzuckerberg/cellxgene), [docs](https://github.com/ambrosejcarr/cellxgene-docs/tree/7687eb17428bd423ffd2e2184da9527146abb038/explorer/explorer-intro.md)\) - a PyPI package to explore and analyze single cell datasets.
 
 | Task | Quick Start | Application |

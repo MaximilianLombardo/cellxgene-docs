@@ -4,7 +4,6 @@
 
 ## Data Portal <a id="portal"></a>
 
-* [Overview](portal/data-portal-overview.md)
 * [Find, Download, and Explore Data](portal/data-portal.md)
 * [Submit and Publish Data](portal/publishing.md)
 

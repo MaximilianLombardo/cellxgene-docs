@@ -4,37 +4,41 @@ description: Finding data on the Data Portal
 
 # Find, Download, and Explore Data
 
-## Finding Data
+## Find Data
 
-When you first enter the [data portal](https://cellxgene.cziscience.com), you will be greeted by the collections page:
+The [cellxgene Data Portal](https://cellxgene.cziscience.com/) is SaaS data publishing platform that is optimized for the access, exploration, and reuse of single cell data that adhere to a common, minimal schema that facilitates rapid, intuitive exploration, combination, and integration. 
+
+When enter the Data Portal, you land on the Collections Page, which lists the Collections hosted on the Data Portal and tissue, assay, disease, organism, and cell count metadata describing them. Each Collection describes a publication associated with one or more datasets.
 
 ![Cellxgene home page](../.gitbook/assets/image%20%288%29.png)
 
 {% hint style="info" %}
-**Note**: While in the future, it will be possible to search and filter datasets that are in the data portal via a search and filter toolbar, the current best way to find datasets from a particular author or tissue is to `CTRL + F` to find the matching text \(of your desired query\) on the page.
+**Note**: We are adding search and filter capability to the the Data Portal. For now, the current best way to find datasets from a particular author or tissue is to `CTRL + F` to find matching text on the page.
 {% endhint %}
 
-Generally, submissions to the data portal are organized by the publication that they are associated \(we name these Collections\). Each collection is associated with one or more datasets \(typically those that were featured in the publication\). In the image above you can also see various collection level metadata such as tissue profiled, assay used, disease, organism, and cell count. You can view the datasets associated with a collection by clicking on a particular collection name:
+Clicking on a Collection name sends you to that collection's page, which contains a description, key links, and the datasets of the Collection: 
 
-![An example collection from the Teichmann group \(https://doi.org/10.1038/s41586-020-2797-4\)](../.gitbook/assets/image%20%286%29.png)
+![An example Collection from the Teichmann group](../.gitbook/assets/image%20%286%29.png)
 
-Now you can see that for each dataset, the same metadata that was available at the collection level, is now available in a more granular \(per dataset\) way. Importantly, we also see two new options for downloading and exploring data. These options are accessed by the last two icons in the image below:
+Each dataset is described by the same metadata available at the collection level. In addition, there are buttons \(far right\) that enable download and exploration of each dataset:
 
 ![Dataset entry in a collection page](../.gitbook/assets/image%20%283%29.png)
 
-## Downloading Data
+## ![](../.gitbook/assets/download.svg) Download Data
 
-The first icon is a download button and will bring up a dialog which enables you to download a particular dataset in a variety of ways and in different formats:
+Clicking the download button brings up a dialog that enables a dataset to be downloaded in `h5ad` \(AnnData v0.7\), `loom`, and `rds` \(Seurat v3\) formats. All datasets adhere to the cellxgene [single cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). Datasets can either be downloaded via the browser by clicking the blue download button or via your command link by pasting the provided curl command. 
 
 ![Download dialog box](../.gitbook/assets/image%20%285%29.png)
 
-Once you click on the download icon \( ![](../.gitbook/assets/image%20%284%29.png) \), a download dialog will appear. Each dataset that is hosted on the cellxgene data portal is available in the major single cell data formats \(namely AnnData and Seurat\). You can choose to either download these using the blue "Download" button or via the provided curl link.
+## ![](../.gitbook/assets/explore.svg) Explore Data
 
-## Exploring Data
+Clicking the explore button launches the Cellxgene Explorer in a new tab:
 
-By clicking the cellxgene explorer icon \(![](../.gitbook/assets/image%20%287%29.png)\), an instance of the cellxgene hosted explorer will appear in appear in a new tab in your browser. Here is an example of what that will look like:
+![](../.gitbook/assets/cellxgene_colored_hcl.png)
 
-![Cells of the adult human heart \(All\): https://doi.org/10.1038/s41586-020-2797-4](../.gitbook/assets/image%20%281%29.png)
+To learn how to explore and analyze a dataset using the Cellxgene Explorer, please see the [Explore Data](../explore-data/the-exploration-interface.md) section of this documentation.
 
-Once you are in "explorer" mode, you will be able to color the cells by various metadata, perform complex cell selection, and more! To read about the various explorations and analyses that you can do in the cellxgene explorer, please refer to the [explorer section of this documentation](../explore-data/the-exploration-interface.md).
+## History
+
+The Data Portal evolved from the [COVID-19 data portal](https://www.covid19cellatlas.org/), a collaboration with the Wellcome Sanger Institute and The Human Cell Atlas that was developed to host single cell datasets that were useful to analyze how SARS-CoV2 infects cells in the face of the 2020 global pandemic. Since then, the cellxgene team has reacted to the need for a more generalized system that increases access to single cell data.
 

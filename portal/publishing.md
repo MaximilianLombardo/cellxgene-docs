@@ -4,23 +4,28 @@ description: An explanation of publishing and data submission to the cellxgene d
 
 # Submit and Publish Data
 
-## Data submission overview
-
 {% hint style="info" %}
-We are currently alpha testing the publishing portal and are not accepting submissions publicly at this time. However, if you have a dataset and are interested in helping us test upload and other portal features please reach out to [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept at this time.
+We are currently alpha testing the publishing portal and are not accepting public submissions at this time. However, if you have a dataset and are interested in helping us test upload and other portal features please reach out to [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept.
 {% endhint %}
 
-The [cellxgene data portal](https://cellxgene.cziscience.com/) provides access to a standardized data corpus that removes the friction of finding and reusing single cell datasets. Each dataset uploaded to cellxgene adheres to a minimal schema which captures key information about the dataset and its observations \(i.e. cells\). These metadata are used by the Data Portal to provide advanced searching of datasets at the cellular level, and facilitate easy combination and integration of downloaded data.
+## Why Submit Data to the Data Portal?
 
-If you wish to contribute your data to the portal then your data must be submitted as an AnnData object that adheres to [the single-cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). 
+The Data Portal is designed to maximize the impact of your published data by maximizing their accessibility and reusability through graphical tools and command line interfaces:
 
-1. Format data into an `AnnData` object which meets cellxgene [data format requirements](../desktop/data-reqs.md)
-2. Use the cellxgene curation tools and a specified config file to apply schema information to your AnnData object \(alternatively, you can perform this process manually, by adding new fields to the appropriate locations in the `AnnData` object\)
-3. Use the cellxgene curation tools to validate that your curated object meets the cellxgene schema requirements
-4. Upload to dropbox and then to the data portal.
-5. Hit publish to make your dataset publicly available \(when you are ready\)!
+| Major single cell data reuse case | Data Portal feature |
+| :--- | :--- |
+| Computational Benchmarking | [Standardized data](data-portal.md#downloading-data) in R and Python native formats |
+| Meta Analysis / Integrative Analysis | [Standardized data](data-portal.md#downloading-data) in R and Python native formats |
+| Evaluate published results | Instant data exploration in [Cellxgene Explorer](../explore-data/the-exploration-interface.md) |
+| Gene Lookup \(by cell type, or other entity\) | Add gene in Cellxgene Explorer and paint by cell types |
+| Biological Pathway Exploration | Add gene set in Cellxgene Explorer and paint by any metadata |
 
-It is important to note that the schema is applied in an additive way, meaning that none of the original information in your object will be overwritten or changed. In general, datasets that are displayed on the portal are meant to be represented as the authors originally intended, with no interpretation added by cellxgene or its team members.
+The Data Portal also provides features that assist in the Publication process:
+
+* **Citation:** the portal provides permanent publication links that can be cited in your paper or preprint and linked to from your lab's website. 
+* **Private Collaboration:** Data uploaded to the portal can be kept private until you are ready to publish it, and private links can be shared with collaborators or manuscript reviewers.
+
+If you wish to contribute your data to the Data Portal it will need to be formatted to adhere to the [the single-cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). Documentation describing how to format and submit data is available in the [single-cell-curation](https://github.com/chanzuckerberg/single-cell-curation) repository.
 
 If you have any further questions around data submission and requirements, feel free to [reach out](mailto:cellxgene@chanzuckerberg.com)!
 
