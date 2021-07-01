@@ -1,4 +1,4 @@
-# Introduction
+# Overview
 
 Cellxgene desktop explorer is a tool in the cellxgene suite that should be used for basic analysis and exploration of your data. The use cases that are covered in this category are:
 

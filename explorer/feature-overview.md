@@ -2,7 +2,7 @@
 description: Explaining the capabilities of the cellxgene's hosted and desktop explorers
 ---
 
-# Introduction
+# The Exploration Interface
 
 ## Feature Intro
 

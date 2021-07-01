@@ -2,17 +2,17 @@
 description: An explanation of publishing and data submission to the cellxgene data portal
 ---
 
-# Publishing and Data Submission
+# Submitting and Publishing Data
 
 ## Data submission overview
 
 {% hint style="info" %}
-We are currently alpha testing the publishing portal and are not accepting submissions publicly at this time. However, if you have a dataset and are interested in helping us test upload and other portal features feel free to reach out [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) so that we can discuss whether your dataset is something that we can accept at this time. We expect that dataset submission will be open in the future.
+We are currently alpha testing the publishing portal and are not accepting submissions publicly at this time. However, if you have a dataset and are interested in helping us test upload and other portal features please reach out to [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept at this time.
 {% endhint %}
 
-One of the main draws of the [cellxgene data portal](https://cellxgene.cziscience.com/) is a standardized data corpus that removes the friction of finding and reusing single cell datasets that are relevant to your research. Standardization of a single cell dataset occurs via the application of a standardized data schema which captures key metadata about the dataset and observations \(i.e. cells\) within the dataset. These metadata are used within our database to provide advanced searching of datasets at the cellular level.
+The [cellxgene data portal](https://cellxgene.cziscience.com/) provides access to a standardized data corpus that removes the friction of finding and reusing single cell datasets. Each dataset uploaded to cellxgene adheres to a minimal schema which captures key information about the dataset and its observations \(i.e. cells\). These metadata are used by the Data Portal to provide advanced searching of datasets at the cellular level, and facilitate easy combination and integration of downloaded data.
 
-If you wish to contribute your data to the portal \(and have it be discoverable and integrable\), then your data must be curated according to our schema. To get an overview of the curation process, you can refer to the following [tutorial](https://github.com/chanzuckerberg/single-cell-curation/blob/tutorial-prototype/docs/curation-proto-tut.md). For an in-depth look at how our data schema is defined, you can refer to this [document](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/corpora_schema.md). For a description of how schema information is encoded into your `AnnData` object, you can refer to this [document](https://github.com/chanzuckerberg/single-cell-curation/blob/ambrosecarr/schema-v1.1.1/schema/1.1.1/anndata_encoding.md). The curation process can be completed manually or with the help of our[ cellxgene curation tools](https://github.com/chanzuckerberg/single-cell-curation/blob/main/docs/schema_guide.md). Briefly, the curation and publishing process looks like this:
+If you wish to contribute your data to the portal then your data must be submitted as an AnnData object that adheres to [the single-cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). 
 
 1. Format data into an `AnnData` object which meets cellxgene [data format requirements](../desktop/data-reqs.md)
 2. Use the cellxgene curation tools and a specified config file to apply schema information to your AnnData object \(alternatively, you can perform this process manually, by adding new fields to the appropriate locations in the `AnnData` object\)
@@ -23,6 +23,4 @@ If you wish to contribute your data to the portal \(and have it be discoverable 
 It is important to note that the schema is applied in an additive way, meaning that none of the original information in your object will be overwritten or changed. In general, datasets that are displayed on the portal are meant to be represented as the authors originally intended, with no interpretation added by cellxgene or its team members.
 
 If you have any further questions around data submission and requirements, feel free to [reach out](mailto:cellxgene@chanzuckerberg.com)!
-
-~~~~
 

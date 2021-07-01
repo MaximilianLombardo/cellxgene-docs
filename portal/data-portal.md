@@ -2,7 +2,7 @@
 description: A general overview of the portal and how to navigate it
 ---
 
-# Data Portal
+# Finding Data
 
 ## Organization
 
