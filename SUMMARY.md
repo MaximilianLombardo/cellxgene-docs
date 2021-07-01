@@ -1,22 +1,14 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Cellxgene](README.md)
 
-## Portal
+## Data Portal <a id="portal"></a>
 
 * [Introduction](portal/hosted-intro.md)
 * [Data Portal](portal/data-portal.md)
 * [Publishing and Data Submission](portal/publishing.md)
 
-## Explorer
-
-* [Introduction](explorer/feature-overview.md)
-* [Universal Features](explorer/universal-features.md)
-* [Desktop Features](explorer/desktop-features/README.md)
-  * [Annotations](explorer/desktop-features/annotations.md)
-* [Algorithms](explorer/algorithms.md)
-
-## Desktop
+## Cellxgene Desktop <a id="desktop"></a>
 
 * [Introduction](desktop/desktop-intro.md)
 * [Quick Start](desktop/quick-start/README.md)
@@ -32,6 +24,14 @@
   * [Heroku](desktop/self-hosting/heroku.md)
 * [Third Party Extensions](desktop/third-party-extensions.md)
 * [Contribute](desktop/contribute.md)
+
+## Explorer
+
+* [Introduction](explorer/feature-overview.md)
+* [Universal Features](explorer/universal-features.md)
+* [Desktop Features](explorer/desktop-features/README.md)
+  * [Annotations](explorer/desktop-features/annotations.md)
+* [Algorithms](explorer/algorithms.md)
 
 ---
 

@@ -1,4 +1,4 @@
-# Overview
+# Cellxgene
 
 ![](.gitbook/assets/cellxgene_colored_hcl.png)
 
@@ -22,10 +22,12 @@ The cellxgene documentation has six major sections:
 
 | Section | Purpose |
 | :--- | :--- |
-| Cellxgene Desktop | How to prepare data and install or host the Cellxgene Desktop |
-| Data Portal | How to use the Data Portal |
-| Data Exploration | The Data Portal and Cellxgene Desktop have similar UIs and features; This section describes how to use both tools to explore data. |
-| Contribution | How to contribute to the cellxgene project |
-| Community Extensions | Cellxgene is MIT licensed, and free to reuse. See how our user community has extended cellxgene |
-| Contact | How to get in touch with the cellxgene team to give us feedback or make feature requests |
+| Data Portal | How to use the Data Portal. |
+| Cellxgene Desktop | How to prepare data and install or host the Cellxgene Desktop. |
+| Exploring Data | The Data Portal and Cellxgene Desktop have similar UIs and features; This section describes how to use both tools to explore data. |
+| Contributing | How to contribute to the cellxgene project. |
+| Community Extensions | Cellxgene is MIT licensed, and free to reuse. See how our user community has extended cellxgene. |
+| Contact Us | How to get in touch with the cellxgene team to give us feedback, make feature requests, or file bugs. |
+
+
 
