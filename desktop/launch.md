@@ -40,9 +40,9 @@ cellxgene launch s3://mybucket.s3-us-west-2.amazonaws.com/mydata.h5ad
 
 `--open` automatically opens the web browser after launching \(caveat: only works on some operating systems\).
 
-`--disable-annotations`, `--annotations-file` & `--annotations-dir` all have to do with creating new categorical annotations in the application. We have a [whole separate page](../explorer/annotations.md) about their usage! :\)
+`--disable-annotations`, `--annotations-file` & `--annotations-dir` all have to do with creating new categorical annotations in the application. We have a [whole separate page](../explore-data/annotations.md) about their usage! :\)
 
-`--diffexp-lfc-cutoff` as explained [in the methods](../explorer/algorithms.md), genes are only returned in differential expression if the effect size is above the specified threshold for log fold change. Defaults to 0.01.
+`--diffexp-lfc-cutoff` as explained [in the methods](../explore-data/algorithms.md), genes are only returned in differential expression if the effect size is above the specified threshold for log fold change. Defaults to 0.01.
 
 `--disable-diffexp` will disable and hide the `Compute Differential Expression` feature. For large datasets, or datasets loaded with the `--backed` option, computing differential expression may be extremely slow or use excessive resources on the host computer \(e.g., memory thrashing\). Disabling the feature will ensure that this computation is not initiated accidentally.
 

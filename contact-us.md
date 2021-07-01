@@ -1,4 +1,4 @@
-# Contact
+# Contact Us
 
 ## Get in touch
 

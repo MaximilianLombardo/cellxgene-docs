@@ -15,7 +15,7 @@ The [cellxgene data portal](https://cellxgene.cziscience.com/) is a single cell 
 
 ![Data Reuse](../.gitbook/assets/image%20%2822%29.png)
 
-As we develop the functionality of our data portal, you can look forward to being able to compare expression of genes across datasets and perform basic data integration. In the meantime, you can find out how to explore data using the hosted explorer by referring to our [section on explorer features](../explorer/the-exploration-interface.md)!
+As we develop the functionality of our data portal, you can look forward to being able to compare expression of genes across datasets and perform basic data integration. In the meantime, you can find out how to explore data using the hosted explorer by referring to our [section on explorer features](../explore-data/the-exploration-interface.md)!
 
 We will proceed to talk about the organization of the data portal in our [next section](data-portal.md), but if you are interested in more information on our data standardization process and how to submit data to the portal, you can refer to our section on [publishing](publishing.md)!
 

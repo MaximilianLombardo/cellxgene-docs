@@ -4,15 +4,13 @@
 
 ## Data Portal <a id="portal"></a>
 
-* [Overview](portal/hosted-intro.md)
-* [Finding Data](portal/data-portal.md)
-* [Downloading Data](portal/downloading-data.md)
-* [Exploring Data](portal/exploring-data.md)
-* [Submitting and Publishing Data](portal/publishing.md)
+* [Overview](portal/data-portal-overview.md)
+* [Find, Download, and Explore Data](portal/data-portal.md)
+* [Submit and Publish Data](portal/publishing.md)
 
 ## Cellxgene Desktop <a id="desktop"></a>
 
-* [Overview](desktop/desktop-intro.md)
+* [Overview](desktop/desktop-overview.md)
 * [Quick Start](desktop/quick-start.md)
 * [Demo data](desktop/demo-data.md)
 * [Install](desktop/install.md)
@@ -24,19 +22,19 @@
   * [Cellxgene Gateway/Apache2 Reverse Proxy with Authentication](desktop/self-hosting/cellxgene-gateway-proxy.md)
   * [AWS Elastic Bean Stalk](desktop/self-hosting/elastic-bean-stalk.md)
   * [Heroku](desktop/self-hosting/heroku.md)
+* [Troubleshooting](desktop/faq.md)
 
-## Exploring Data <a id="explorer"></a>
+## Explore Data
 
-* [The Exploration Interface](explorer/the-exploration-interface.md)
-* [Universal Features](explorer/universal-features.md)
-* [Annotations (Desktop Only)](explorer/annotations.md)
-* [Algorithms](explorer/algorithms.md)
+* [The Exploration Interface](explore-data/the-exploration-interface.md)
+* [Features](explore-data/features.md)
+* [Algorithms](explore-data/algorithms.md)
+* [Annotations \(Desktop Only\)](explore-data/annotations.md)
 
 ---
 
 * [Contribute](contribute.md)
-* [Third Party Extensions](third-party-extensions.md)
+* [Community Extensions](community-extensions.md)
 * [Code](code.md)
-* [Contact](contact.md)
-* [FAQ](faq.md)
+* [Contact Us](contact-us.md)
 

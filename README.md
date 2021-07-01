@@ -4,7 +4,7 @@
 
 Cellxgene enables scientists to annotate, publish, find, download, explore and analyze single cell datasets. Cellxgene has two offerings:
 
-* The **Data Portal** \([site](https://cellxgene.cziscience.com/), [docs](portal/hosted-intro.md)\) - a SaaS platform to publish, find, download, and explore single cell data.
+* The **Data Portal** \([site](https://cellxgene.cziscience.com/), [docs](portal/data-portal-overview.md)\) - a SaaS platform to publish, find, download, and explore single cell data.
 * **Cellxgene Desktop** \([site](https://github.com/chanzuckerberg/cellxgene), [docs](https://github.com/ambrosejcarr/cellxgene-docs/tree/7687eb17428bd423ffd2e2184da9527146abb038/explorer/explorer-intro.md)\) - a PyPI package to explore and analyze single cell datasets.
 
 | Task | Quick Start | Application |
@@ -18,15 +18,16 @@ Cellxgene enables scientists to annotate, publish, find, download, explore and a
 
 ## Learn more
 
-The cellxgene documentation has six major sections:
+The cellxgene documentation has seven major sections:
 
 | Section | Purpose |
 | :--- | :--- |
 | Data Portal | How to use the Data Portal. |
 | Cellxgene Desktop | How to prepare data and install or host the Cellxgene Desktop. |
-| Exploring Data | The Data Portal and Cellxgene Desktop have similar UIs and features; This section describes how to use both tools to explore data. |
-| Contributing | How to contribute to the cellxgene project. |
+| Explore Data | The Data Portal and Cellxgene Desktop have similar UIs and features; This section describes how to use both tools to explore data. |
+| Contribute | How to contribute to the cellxgene project. |
 | Community Extensions | Cellxgene is MIT licensed, and free to reuse. See how our user community has extended cellxgene. |
+| Code | Links to the github repositories containing Cellxgene Desktop and Data Portal Code |
 | Contact Us | How to get in touch with the cellxgene team to give us feedback, make feature requests, or file bugs. |
 
 

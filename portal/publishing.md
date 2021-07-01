@@ -2,7 +2,7 @@
 description: An explanation of publishing and data submission to the cellxgene data portal
 ---
 
-# Submitting and Publishing Data
+# Submit and Publish Data
 
 ## Data submission overview
 

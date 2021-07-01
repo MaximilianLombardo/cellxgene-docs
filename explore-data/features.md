@@ -1,4 +1,8 @@
-# Universal Features
+---
+description: Features of the cellxgene exploration interface.
+---
+
+# Features
 
 Cellxgene's desktop explorer and hosted explorer have a number of features which are very useful for the exploration and interrogation of single cell data. In this section, we discuss the features which are common to both versions of the software.
 

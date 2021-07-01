@@ -48,7 +48,7 @@ Rich metadata and annotations.
 * Source: [bioRxiv, CZBiohub](https://www.biorxiv.org/content/10.1101/661728v1)
 * Cells: 81,478
 * File size: 3.9GB
-* Raw data \[geo link coming soon!\]
+* [Raw data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132040)
 * [Processing](https://www.biorxiv.org/content/10.1101/661728v1)
 * Launch:
 
