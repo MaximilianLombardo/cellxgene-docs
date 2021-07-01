@@ -63,5 +63,3 @@ True
 
 You can disable this feature using the `--disable-custom-colors` flag for `cellxgene launch`. cellxgene will then chose colors from its standard color palettes.
 
-
-

@@ -43,10 +43,10 @@ Our `prepare` command looks like this:
 
 ```text
 cellxgene prepare pbmc3k-raw.h5ad \
-	--run-qc \                                  # (A)
-	--recipe seurat \                           # (B)
-	--layout tsne --layout umap \               # (C)
-	--output pbmc3k-prepared.h5ad               # (D)
+    --run-qc \                                  # (A)
+    --recipe seurat \                           # (B)
+    --layout tsne --layout umap \               # (C)
+    --output pbmc3k-prepared.h5ad               # (D)
 ```
 
 Let's look at what `prepare` is doing to our data, and how each step relates to the command above. You can see a walkthrough of what's going on under the hood for this example in [this notebook](https://github.com/chanzuckerberg/cellxgene-vignettes/blob/master/dataset-processing/pbmc3k-prepare-example.ipynb).

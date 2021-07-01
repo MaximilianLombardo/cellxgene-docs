@@ -4,7 +4,7 @@ description: A general overview of the portal and how to navigate it
 
 # Data Portal
 
-### Organization
+## Organization
 
 This section of the documentation aims to explain how the [cellxgene data portal](https://cellxgene.cziscience.com/) is organized and how to navigate it. When you first enter the data portal, you will be greeted by a collections page:
 
@@ -22,7 +22,7 @@ Now you can see that for each dataset, the same metadata that was available at t
 
 ![Dataset entry in a collection page](../.gitbook/assets/image%20%283%29.png)
 
-### Download
+## Download
 
 The first icon is a download button and will bring up a dialog which enables you to download a particular dataset in a variety of ways and in different formats:
 
@@ -30,7 +30,7 @@ The first icon is a download button and will bring up a dialog which enables you
 
 Once you click on the download icon \( ![](../.gitbook/assets/image%20%284%29.png) \), a download dialog will appear. Each dataset that is hosted on the cellxgene data portal is available in the major single cell data formats \(namely AnnData and Seurat\). You can choose to either download these using the blue "Download" button or via the provided curl link.
 
-### Explore
+## Explore
 
 By clicking the cellxgene explorer icon \(![](../.gitbook/assets/image%20%287%29.png)\), an instance of the cellxgene hosted explorer will appear in appear in a new tab in your browser. Here is an example of what that will look like:
 

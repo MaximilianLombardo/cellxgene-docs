@@ -1,22 +1,22 @@
 # AWS/Linux server with basic authentication
 
-### **Contributors**:
+## **Contributors**:
 
 Lisa Sikkema and Thomas Walzthoeni
 
-### Hosting Use Case:
+## Hosting Use Case:
 
 * Private self-hosting on an EC2 instance
 * Access by external collaborators and potentially password authentication
 
-### Components:
+## Components:
 
 * [Cellxgene Desktop](https://github.com/chanzuckerberg/cellxgene): the application to be run
 * [Nginx](https://www.nginx.com/): used as a reverse proxy to redirect web requests to the WSGI
 * [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/): forwards requests from the Nginx web server to our python flask framework
 * [Htpasswd](https://httpd.apache.org/docs/2.4/programs/htpasswd.html): used to allow basic authentication for web requests
 
-### References:
+## References:
 
 For a general reference, you can [refer](https://hackersandslackers.com/deploy-flask-uwsgi-nginx/) to this article on how to deploy a flask application \(a.k.a. Cellxgene\) to an AWS EC2 instance - or a general linux server using Nginx for receiving web requests, uWSGI to redirect those requests to the python application and htpasswd to add a basic authentication layer over the server.
 
@@ -51,7 +51,7 @@ http://localhost:5007/
         auth_basic_user_file /etc/nginx/conf.d/nginx.htpasswd;
         client_max_body_size 50M;
     }
-   
+
 }
 
 server {
@@ -65,7 +65,7 @@ https://$host$request_uri
 }
 ```
 
-With respect to above Nginx config specification, one would start the browser using port 5007 and forward a request from https://YOURHOSTNAME/cellxgene\_example to the cxg browser \(http://localhost:5007\). What is also added is basic\_auth that adds a login request with a username and password. The nginx.htpasswd file is generated using htpasswd. If you want to add additional browsers, this is done by just adding additional location stanzas and running the cxg on a different port. The additional location stanzas just need to be adapted accordingly \(proxy\_pass and sub\_filter lines\).
+With respect to above Nginx config specification, one would start the browser using port 5007 and forward a request from [https://YOURHOSTNAME/cellxgene\_example](https://YOURHOSTNAME/cellxgene_example) to the cxg browser \([http://localhost:5007\](http://localhost:5007\)\). What is also added is basic\_auth that adds a login request with a username and password. The nginx.htpasswd file is generated using htpasswd. If you want to add additional browsers, this is done by just adding additional location stanzas and running the cxg on a different port. The additional location stanzas just need to be adapted accordingly \(proxy\_pass and sub\_filter lines\).
 
 **Note regarding storage and memory on the EC2 instance \(if you implement using AWS\):**
 

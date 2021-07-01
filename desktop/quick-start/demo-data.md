@@ -7,7 +7,7 @@ description: Additional demo datasets for cellxgene desktop
 ## Additional Example datasets
 
 **To use these datasets, run:**  
- `cellxgene launch [filename.h5ad] --open`
+`cellxgene launch [filename.h5ad] --open`
 
 ### Peripheral blood mononuclear cells
 
@@ -27,7 +27,7 @@ cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
 ### Tabula muris
 
 20 organs and tissues from healthy mice \(Smart-Seq2\).  
- Rich metadata and annotations.
+Rich metadata and annotations.
 
 * Source: [bioRxiv, CZBiohub](https://www.biorxiv.org/content/10.1101/237446v2)
 * Cells: 45,423
@@ -43,7 +43,7 @@ cellxgene launch https://cellxgene-example-data.czi.technology/tabula-muris.h5ad
 ### Tabula muris senis
 
 22 organs and tissues from healthy mice at ages 3mo, 18mo, 21mo, and 24mo \(Smart-Seq2\).  
- Rich metadata and annotations.
+Rich metadata and annotations.
 
 * Source: [bioRxiv, CZBiohub](https://www.biorxiv.org/content/10.1101/661728v1)
 * Cells: 81,478

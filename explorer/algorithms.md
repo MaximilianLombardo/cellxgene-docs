@@ -6,7 +6,7 @@ description: >-
 
 # Algorithms
 
-### Differential expression
+## Differential expression
 
 We're actively working on how to improve differential expression within the app. **N.B.: the** [**current implementation**](https://github.com/chanzuckerberg/cellxgene/blob/6f6634a4d9766a93596674fe42efbcae6ffabea6/backend/czi_hosted/compute/diffexp_generic.py#L42) **assumes normally distributed values on a linear scale.**
 
