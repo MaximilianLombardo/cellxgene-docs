@@ -1,5 +1,5 @@
 ---
-description: Finding data on the Data Portal
+description: A general overview of the portal and how to navigate it
 ---
 
 # Find, Download, and Explore Data

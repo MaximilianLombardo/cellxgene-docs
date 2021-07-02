@@ -1,7 +1,3 @@
----
-description: Features of the cellxgene exploration interface.
----
-
 # Features
 
 [Cellxgene Desktop](../desktop/quick-start.md) and [Data Portal](../portal/data-portal.md) have common UI that enables exploration and interrogation of single cell data. This section describes cellxgene's data exploration features.
