@@ -1,22 +1,6 @@
 # Contact Us
 
-## Get in touch
+For questions and suggestions, or to report bugs, please [file an issue on github](https://github.com/chanzuckerberg/cellxgene/issues).
 
-We'd love to hear from you!
-
-For questions and suggestions, or to report bugs, file an issue in our [github](https://github.com/chanzuckerberg/cellxgene).
-
-## Team
-
-The current core team:
-
-* Colin Megill, frontend & product design
-* Bruce Martin, software engineer
-* Severiano Badajoz, software engineer
-
-We would also like to gratefully acknowledge contributions from past core team members:
-
-* Charlotte Weaver, software engineer
-* Sidney Bell, computational biologist
-* Lia Prins, designer
+For all other inquiries, please contact us at [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com)
 

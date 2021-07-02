@@ -4,7 +4,11 @@ description: Features of the cellxgene exploration interface.
 
 # Features
 
-Cellxgene's desktop explorer and hosted explorer have a number of features which are very useful for the exploration and interrogation of single cell data. In this section, we discuss the features which are common to both versions of the software.
+[Cellxgene Desktop](../desktop/quick-start.md) and [Data Portal](../portal/data-portal.md) have common UI that enables exploration and interrogation of single cell data. This section describes cellxgene's data exploration features.
+
+{% hint style="info" %}
+While most features are shared, [Annotation](../desktop/annotations.md) is only available on Cellxgene Desktop.
+{% endhint %}
 
 ## Cross-filter cells and color by metadata
 
@@ -16,13 +20,13 @@ Categorical metadata can be used not only to color cells in the embedding scatte
 
 ![](../.gitbook/assets/crossfilter.gif)
 
-## Compare groups of cells with differential expression
+## ![](../.gitbook/assets/image%20%282%29.png) Compare groups of cells with differential expression
 
 Differential expression can be run between selections of two different groups of cells. In the media below, these steps are to:
 
 1. Select cells for the first group \("B Cells"\)
 2. Select cells for the second group \("granulocytes"\)
-3. Click the differential expression icon \( ![](../.gitbook/assets/image%20%282%29.png) \)
+3. Click the differential expression icon
 4. The top 10 differentially expressed features will appear on the right hand side-bar
 
 ![](../.gitbook/assets/diffexp.gif)
@@ -32,7 +36,7 @@ Differential expression can be run between selections of two different groups of
 {% endhint %}
 
 {% hint style="info" %}
-**Note**: You can find more information [here](algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not necessarily always meet the assumptions imposed by this test, we utilize it because it enables cellxgene to provide broadly differentially expressed markers \(computed on the fly\) that enable exploration and forego any assumptions that we could make about statistical precision.
+**Note**: You can find more information [here](algorithms.md#differential-expression) about how our differential expression is calculated. In brief, we use a Welch's t-test. While we are aware that single cell data does not always meet the assumptions imposed by this test, we utilize it because it performs well at identifying the _most_ differentially expressed genes. This enables rapid exploration without sacrificing accuracy.
 {% endhint %}
 
 ## See how metadata and gene expression break down across different categories
@@ -44,7 +48,7 @@ Cellxgene can give you information on how different categorical and continuous m
 
 ![](../.gitbook/assets/category-breakdown.gif)
 
-One could imagine using this feature in a scenario where it is expected that certain cell types are only present in a particular disease state for instance.
+One could imagine using this feature in a scenario where it is expected that certain cell types are only present in a particular disease state.
 
 ## Find cells where a gene is expressed
 

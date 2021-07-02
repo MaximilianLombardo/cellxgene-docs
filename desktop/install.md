@@ -5,7 +5,7 @@
 Cellxgene desktop has two parts:
 
 * [`cellxgene`](launch.md) is the main explorer application, which takes an already-processed `h5ad` file as input. This is installed by default.
-* [`cellxgene prepare`](prepare.md) provides auxiliary functionality for preparing your dataset. This is _not_ installed by default.
+* [`cellxgene prepare`]() provides auxiliary functionality for preparing your dataset. This is _not_ installed by default.
 
 ### Requirements
 
@@ -27,13 +27,13 @@ To install `cellxgene` and the optional `cellxgene prepare`, run:
 pip install cellxgene[prepare]
 ```
 
-_Note: if the aforementioned optional `prepare` package installation fails, you can also install these packages directly:_
+Note: if the aforementioned optional `prepare` package installation fails, you can also install these packages directly:
 
 ```text
 pip install scanpy>=1.3.7 python-igraph louvain>=0.6
 ```
 
-_On various Linux platforms, you may also need to install build dependencies first:_
+On Linux platforms, you may also need to install build dependencies first:
 
 ```text
 sudo apt-get install build-essential python-dev
@@ -92,11 +92,11 @@ Build the image
 docker build . -t cellxgene
 ```
 
-Run the container and mount data \(change data location, `--port` and `--host` parameters as needed\)
+Run the container and mount data \(change data location, `--port` and `--host` parameters as needed\). You will need to use `--host 0.0.0.0` to have the container listen to incoming requests from the browser.
 
 ```text
 docker run -v "$PWD/example-dataset/:/data/" -p 5005:5005 cellxgene launch --host 0.0.0.0 data/pbmc3k.h5ad
 ```
 
-You will need to use `--host 0.0.0.0` to have the container listen to incoming requests from the browser
+
 

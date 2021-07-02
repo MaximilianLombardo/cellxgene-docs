@@ -2,7 +2,7 @@
 description: An explanation of publishing and data submission to the cellxgene data portal
 ---
 
-# Submit and Publish Data
+# Upload and Publish Data
 
 {% hint style="info" %}
 We are currently alpha testing the publishing portal and are not accepting public submissions at this time. However, if you have a dataset and are interested in helping us test upload and other portal features please reach out to [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept.

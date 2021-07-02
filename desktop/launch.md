@@ -4,7 +4,7 @@
 
 ### Quickstart
 
-Once you've [prepared your data](prepare.md) for cellxgene, you can launch the app using
+Once you've [prepared your data]() for cellxgene, you can launch the app using
 
 ```text
 cellxgene launch mydataset.h5ad --open
@@ -40,7 +40,7 @@ cellxgene launch s3://mybucket.s3-us-west-2.amazonaws.com/mydata.h5ad
 
 `--open` automatically opens the web browser after launching \(caveat: only works on some operating systems\).
 
-`--disable-annotations`, `--annotations-file` & `--annotations-dir` all have to do with creating new categorical annotations in the application. We have a [whole separate page](../explore-data/annotations.md) about their usage! :\)
+`--disable-annotations`, `--annotations-file` & `--annotations-dir` all have to do with creating new categorical annotations in the application. We have a [whole separate page](annotations.md) about their usage! :\)
 
 `--diffexp-lfc-cutoff` as explained [in the methods](../explore-data/algorithms.md), genes are only returned in differential expression if the effect size is above the specified threshold for log fold change. Defaults to 0.01.
 

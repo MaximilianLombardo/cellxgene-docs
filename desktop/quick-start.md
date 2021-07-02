@@ -1,18 +1,47 @@
 # Quick Start
 
-## Quick start
+Whether you need to explore one thousand cells or one million, cellxgene helps you gain insight into your single-cell data.
 
-Whether you need to visualize one thousand cells or one million, cellxgene helps you gain insight into your single-cell data.
+[To install cellxgene](install.md) you need Python 3.6+. We recommend installing cellxgene into a [conda](install.md#using-a-conda-environment) or [virtual environment](install.md#using-a-virtual-environment).
 
-[To install cellxgene](install.md) you need Python 3.6+. We recommend installing cellxgene into a conda or virtual environment.
+Install the package, then launch cellxgene with an example [AnnData](https://anndata.readthedocs.io) file:
 
-Install the package \(i.e. `pip install cellxgene`\).
+```text
+pip3 install cellxgene
+cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
+```
 
-Launch cellxgene with an example anndata file \(find out more about [AnnData](https://anndata.readthedocs.io/en/latest/)\):
+## Example datasets
+
+The following datasets are available on the web and can be opened directly using `cellxgene launch`
+
+### Peripheral blood mononuclear cells
+
+| Source | Cells | File Size | Raw Data | Processing |
+| :--- | :--- | :--- | :--- | :--- |
+| [10X genomics](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k) | 2638 | 19MB | Link | [Notebook](https://github.com/chanzuckerberg/cellxgene-compbio-methods/blob/master/dataset-processing/pbmc3k-processing.ipynb) |
 
 ```text
 cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
 ```
 
-To explore more datasets already formatted for cellxgene, check out the [demo data](demo-data.md) or see [the data requirements section](data-reqs.md) to learn more about formatting your own data for cellxgene.
+### Tabula muris
+
+| Source | Cells | File Size | Raw Data | Processing |
+| :--- | :--- | :--- | :--- | :--- |
+| [bioRxiv, CZBiohub](https://www.biorxiv.org/content/10.1101/237446v2) | 45423 | 174MB | [Link](https://figshare.com/projects/Tabula_Muris_Transcriptomic_characterization_of_20_organs_and_tissues_from_Mus_musculus_at_single_cell_resolution/27733) | [Notebook](https://github.com/chanzuckerberg/cellxgene-compbio-methods/blob/master/dataset-processing/tabula-muris-processing.ipynb) |
+
+```text
+cellxgene launch https://cellxgene-example-data.czi.technology/tabula-muris.h5ad
+```
+
+### Tabula muris senis
+
+| Source | Cells | File Size | Raw Data | Processing |
+| :--- | :--- | :--- | :--- | :--- |
+| [bioRxiv, CZBiohub](https://www.biorxiv.org/content/10.1101/661728v1) | 81478 | 3.9GB | [Link](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132040) | [Notebook](https://www.biorxiv.org/content/10.1101/661728v1) |
+
+```text
+cellxgene launch https://cellxgene-example-data.czi.technology/tabula-muris-senis.h5ad
+```
 
