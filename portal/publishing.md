@@ -5,7 +5,7 @@ description: An explanation of publishing and data submission to the cellxgene d
 # Upload and Publish Data
 
 {% hint style="info" %}
-We are currently alpha testing the publishing portal and are not accepting public submissions at this time. However, if you have a dataset and are interested in helping us test upload and other portal features please reach out to [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept.
+We are currently alpha testing the publishing portal and are not accepting public submissions at this time. However, if you have a dataset you'd like to curate and are interested in helping us test upload and other portal features, please contact us at [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept. Please note that at this time our support is limited to single cell RNA and DNA assays of human and mouse.     
 {% endhint %}
 
 ## Why Submit Data to the Data Portal?
@@ -25,7 +25,6 @@ The Data Portal also provides features that assist in the Publication process:
 * **Citation:** the portal provides permanent publication links that can be cited in your paper or preprint and linked to from your lab's website. 
 * **Private Collaboration:** Data uploaded to the portal can be kept private until you are ready to publish it, and private links can be shared with collaborators or manuscript reviewers.
 
-If you wish to contribute your data to the Data Portal it will need to be formatted to adhere to the [the single-cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). Documentation describing how to format and submit data is available in the [single-cell-curation](https://github.com/chanzuckerberg/single-cell-curation) repository.
+To enable these capabilities, data contributed to the Data Portal will need to be formatted to adhere to the [the single-cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). Documentation describing how to format and submit data is available in the [single-cell-curation](https://github.com/chanzuckerberg/single-cell-curation) repository.
 
-If you have any further questions around data submission and requirements, feel free to [reach out](mailto:cellxgene@chanzuckerberg.com)!
-
+If you have any further questions about data submission and requirements, please [contact us](../contact-us.md)
