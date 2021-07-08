@@ -5,9 +5,9 @@ description: An explanation of publishing and data submission to the cellxgene d
 # Upload and Publish Data
 
 {% hint style="info" %}
-We are currently alpha testing the publishing portal and are not accepting public submissions at this time. 
+We are currently alpha testing the publishing portal and are not accepting public submissions at this time.
 
-However, if you have a *single cell RNA or DNA assay from human or mouse* that you'd like to curate and are interested in helping us test upload and other portal features, please contact us at [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept. 
+However, if you have a _single cell RNA or DNA assay from human or mouse_ that you'd like to curate and are interested in helping us test upload and other portal features, please contact us at [cellxgene@chanzuckerberg.com](mailto:cellxgene@chanzuckerberg.com) and we'll be happy to discuss whether your dataset is something that we can accept.
 {% endhint %}
 
 ## Why Submit Data to the Data Portal?
@@ -30,3 +30,4 @@ The Data Portal also provides features that assist in the Publication process:
 To enable these capabilities, data contributed to the Data Portal will need to be formatted to adhere to the [the single-cell annotated data schema](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/2.0.0/corpora_schema.md). Documentation describing how to format and submit data is available in the [single-cell-curation](https://github.com/chanzuckerberg/single-cell-curation) repository.
 
 If you have any further questions about data submission and requirements, please [contact us](../contact-us.md)
+
