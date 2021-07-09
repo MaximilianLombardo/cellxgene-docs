@@ -2,17 +2,17 @@
 description: Hosting Advice and Recipes
 ---
 
-# Self-Hosting
+# Self-Host Cellxgene
 
 ## Hosting cellxgene desktop on the web
 
-Cellxgene desktop is intended to be used by researchers on their local machines. In scenarios where hosting on the web is essential for data sharing and dissemination, we strongly recommend to utilize the hosted explorer in the cellxgene data portal \(see [here for a more comprehensive definition of use cases](../../portal/hosted-intro.md) and [here for a rundown of hosted explorer features](../../explorer/universal-features.md)\). However, there are some scenarios where you may need to self-host the desktop version of cellxgene explorer. Here are some examples of scenarios where this type of setup would be advantageous:
+Cellxgene desktop is intended to be used by researchers on their local machines. In cases where collaborators are not comfortable installing cellxgene, it is possible to host cellxgene, so your collaborators only need to open the URL you send them.
 
-* you need to share data with collaborators \(in a private or public manner\) and cannot submit your data to the portal because of controlled access to your data
-* you need access to features such as experimental re-embeddding or annotations \(which are not available in the hosted version of the system\)
-* You are still generating data \(or iterating through analyses\) and working to finalize your submission
+We don't officially support web deployment, but we've offered some guidance in the following sections on ways to deploy cellxgene to the web.
 
-To help you consider a self-hosting path, you can check out examples of how other groups have approached this [below](./#live-examples-of-self-hosted-cellxgene-desktop). While we don't officially support web deployment, we've offered some guidance in the following sections on ways to deploy cellxgene to the web.
+{% hint style="info" %}
+We are developing the [Data Portal](../../portal/publishing.md) to support private sharing, however publishing is not yet widely available. 
+{% endhint %}
 
 ### General notes and cautions
 
@@ -35,7 +35,7 @@ The following configuration options require special consideration in any multi-u
 
 `--disable-annotations`: annotations, which is enabled by default, may not be appropriate for hosted environments. It will write to the local file system, and in extreme cases could be used to abuse \(or exceed\) file system capacity on the hosting server. We recommend disabling this with this flag.
 
-`--annotations-file`: this specifies a single file for all end-user annotations, and is incompatible with hosted or multi-user use of cellxgene. Using it will cause loss of user annotation data \(ie, the CSV file will be overwritten\). If you wish to explore using the annotations feature in a multi-user environment, please refer to the [annotations documentation](../../explorer/desktop-features/annotations.md), and in particular the `--annotations-dir` flag.
+`--annotations-file`: this specifies a single file for all end-user annotations, and is incompatible with hosted or multi-user use of cellxgene. Using it will cause loss of user annotation data \(ie, the CSV file will be overwritten\). If you wish to explore using the annotations feature in a multi-user environment, please refer to the [annotations documentation](../annotations.md), and in particular the `--annotations-dir` flag.
 
 ### Community software projects
 
@@ -48,7 +48,7 @@ If you know of other solutions, drop us a note and we'll add to this list.
 
 ### Live Examples of self-hosted Cellxgene Desktop
 
-Several groups have independently deployed various versions of cellxgene to the web. Check out the cool data that our users are using cellxgene to explore!
+Several groups have independently deployed various versions of cellxgene to the web. Check out the cool data that have been hosted using cellxgene!
 
 [Kidney cell atlas](https://www.kidneycellatlas.org/)
 
@@ -58,7 +58,5 @@ Several groups have independently deployed various versions of cellxgene to the 
 
 [Melanoma](https://melanoma.cellgeni.sanger.ac.uk/)
 
-[CZI's own cellxgene site](https://cellxgene.cziscience.com/)
-
-_Want us to link to your dataset here?_ [_Just send us a note!_](../../contact.md)
+[Cellxgene Data Portal](https://cellxgene.cziscience.com)
 
